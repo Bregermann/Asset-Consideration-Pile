@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: a5811540737a2934aa1b0aa6b29a639e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 204250
+  packageName: DoItRetro Music and SFX
+  packageVersion: 1.0.1
+  assetPath: Assets/Modotool/DoItRetro/DoTheSFXAndMusic/RetroSFXBuilder.cs
+  uploadId: 465805

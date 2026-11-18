@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e7c90ab59df3e27458e227e3bc9efc64
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 204250
+  packageName: DoItRetro Music and SFX
+  packageVersion: 1.0.1
+  assetPath: Assets/Modotool/DoItRetro/DoTheSFXAndMusic/Editor/DoTheMusicEditorWindow.cs
+  uploadId: 465805

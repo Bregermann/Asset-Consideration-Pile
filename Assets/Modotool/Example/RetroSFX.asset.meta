@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 582205c53a887b64d9cba95844764952
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 204250
+  packageName: DoItRetro Music and SFX
+  packageVersion: 1.0.1
+  assetPath: Assets/Modotool/Example/RetroSFX.asset
+  uploadId: 465805
