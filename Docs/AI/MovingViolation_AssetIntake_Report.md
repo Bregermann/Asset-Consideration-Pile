@@ -2,18 +2,18 @@
 
 Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows in priority order. This report records the last verified state of each package.
 
-- Archive evidence for 63 of 71 packages, with 56,458,064,975 bytes in inventoried payloads before Unity sidecars.
-- 5 packages recorded as active in the Pile, totaling 12,663,285,000 payload bytes.
-- 10 confirmed asset metadata checkpoints. Tracked vendor payload totals 0 bytes of separately licensed media.
-- 67 inventoried files at or above 50 MiB. See [Local-only size exclusions](MovingViolation/LocalOnlyRestore.csv) for paths and sidecars.
+- Archive evidence for 64 of 71 packages, with 57,930,648,991 bytes in inventoried payloads before Unity sidecars.
+- 9 packages recorded as active in the Pile, totaling 18,099,561,108 payload bytes.
+- 14 confirmed asset metadata checkpoints. Tracked vendor payload totals 23,684,823 bytes of separately licensed media.
+- 68 inventoried files at or above 50 MiB. See [Local-only size exclusions](MovingViolation/LocalOnlyRestore.csv) for paths and sidecars.
 - Isolated Unity 6000.3.6f1 URP baseline: exit code 0, refresh completed True, compiler errors 0. The live Pile had an existing Infinity PBR demo prefab error before this intake.
 
 | Disposition | Packages |
 | --- | ---: |
 | `ALREADY_PRESENT_VALIDATED` | 1 |
-| `FAILED_RETRY_NEEDED` | 62 |
-| `INCOMPATIBLE_ISOLATED` | 4 |
-| `LOCAL_ONLY_LICENSE` | 4 |
+| `FAILED_RETRY_NEEDED` | 59 |
+| `INCOMPATIBLE_ISOLATED` | 3 |
+| `LOCAL_ONLY_LICENSE` | 8 |
 
 ## Evidence and rehydration
 
@@ -33,22 +33,24 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 03 | JU TPS 3 - Third Person Shooter GameKit + Vehicle Physics | [7df2243](https://github.com/Bregermann/Asset-Consideration-Pile/commit/7df2243e9eeed36d9e66b9b779e8e6ce26ea56aa) | 2,306 B |
 | 04 | Urban Traffic System Full Pack | [4e1bb2d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/4e1bb2d1ab1db535d2218d091015c570f16d880c) | 2,338 B |
 | 05 | Dialogue System for Unity | [b99f84c](https://github.com/Bregermann/Asset-Consideration-Pile/commit/b99f84c41c1f744a8da22d500598e6c97b088e7c) | 772 B |
+| 06 | Mobile Pedestrian System | [fe1b7c3](https://github.com/Bregermann/Asset-Consideration-Pile/commit/fe1b7c3c8f64c4f3d13946d734966bc489b09fcf) | 1,869 B |
+| 07 | Miami Vice City | [d67e84c](https://github.com/Bregermann/Asset-Consideration-Pile/commit/d67e84ca2547f48f65d77634a46e52f3678578fc) | 1,971 B |
 | 08 | Sundown:Shop/Store (Modular Shop, Supermarket, Convenience Store) | [1bdf1c4](https://github.com/Bregermann/Asset-Consideration-Pile/commit/1bdf1c4b376a3bcd492508023195793a0b717f7d) | 2,037 B |
 | 09 | Love/Hate | [7a40b24](https://github.com/Bregermann/Asset-Consideration-Pile/commit/7a40b24ed575354b893895685a820d3783fc6f94) | 1,889 B |
-| 11 | Scene Streamer | [8610ec3](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8610ec3715c8cc616b043fa9081a9e6417ec7318) | 1,704 B |
-| 13 | Modern restaurant - building and interior | [f329851](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f3298517a2b2d3cd491fd12f2b3839125ee3a5f9) | 2,002 B |
+| 10 | Human Basic Motions | [c91e8ab](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c91e8ab41fd85d195a9b2df1ec8af9c3e57cc1c8) | 1,857 B |
+| 11 | Scene Streamer | [e175898](https://github.com/Bregermann/Asset-Consideration-Pile/commit/e1758980fd1e6b493792084b33ee8cc5ba8d1be6) | 774 B |
+| 12 | City / Street Environments Bundle (8 Packs) | [46e81cf](https://github.com/Bregermann/Asset-Consideration-Pile/commit/46e81cfe77d83190a457f044dcbb79029bce39dc) | 1,772 B |
+| 13 | Modern restaurant - building and interior | [6cbf421](https://github.com/Bregermann/Asset-Consideration-Pile/commit/6cbf421000e8a6a3ad76e1ff976359bf88d6be7b) | 761 B |
 | 45 | Ultimate Sound FX Bundle | [ee3ec2d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/ee3ec2d48b95bf6c52240447c5fb0256ea3c3fd1) | 1,584 B |
 
 ## Separately licensed media pushes
 
+- 03 JU TPS 3 - Third Person Shooter GameKit + Vehicle Physics — 23,684,823 bytes. [Verified CC0 commit](https://github.com/Bregermann/Asset-Consideration-Pile/commit/71ecdc0b302b780aead512c32495e1e8ec17d36f)
 
 ## Outstanding work
 
-- 06 **Mobile Pedestrian System**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 07 **Miami Vice City**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 10 **Human Basic Motions**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 12 **City / Street Environments Bundle (8 Packs)**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 13 **Modern restaurant - building and interior**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 8 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `2d94245116ccc3d4ebc1d22a0dcdad50` (1 files), `9e98653779b302f4b8541b444993a920` (1 files), `adb84e30e02715445aeb9959894e3b4d` (1 files), `48a79b01ea5641d4aa6daa2e23605641` (1 files), `8e6292b2c06870d4495f009f912b9600` (1 files).
+- 12 **City / Street Environments Bundle (8 Packs)**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 3 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `7a68c43fe1f2a47cfa234b5eeaa98012` (1 files), `23c1ce4fb46143f46bc5cb5224c934f6` (1 files), `441482e8936e35048a1dffac814e3ef8` (1 files). City bundle component IDs: 290716, 315413, 272227, 303625, 228679, 357022, 252380 and 240150.
+- 13 **Modern restaurant - building and interior**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 8 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `2d94245116ccc3d4ebc1d22a0dcdad50` (1 files), `9e98653779b302f4b8541b444993a920` (1 files), `c1cb7e9e120078f43bce4f0b1be547a7` (1 files), `7a34fa72bd4185749832024e9c8010bf` (1 files), `48a79b01ea5641d4aa6daa2e23605641` (1 files).
 - 14 **Retro Police Station Environment / Exterior + Interior**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 15 **Compass Navigator Pro 4**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 16 **Heat - Complete Modern UI**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
@@ -80,7 +82,7 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 - 42 **Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory, Warehouse)**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 43 **Omni Animation - Core Locomotion Pack**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 44 **Prefab World Builder**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 46 **Procedural Cracks**. Complete the authenticated Package Manager download or restore the owned archive.
+- 46 **Procedural Cracks**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 47 **Urban Abandoned District**. Complete the authenticated Package Manager download or restore the owned archive.
 - 48 **Character Customizer**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 49 **Complete Off-Road Racing (PC / Console) for URP**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
@@ -100,7 +102,7 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 - 63 **French Quarter Street Environment**. Complete the authenticated Package Manager download or restore the owned archive.
 - 64 **GamePad and Keyboard Input Sprites for TextMesh Pro**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 65 **Mall Environment**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 66 **Midnight Downtown**. Validate the archive header and unpack using its shipped vendor paths.
+- 66 **Midnight Downtown**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 67 **Modern Guns: Handgun**. Complete the authenticated Package Manager download or restore the owned archive.
 - 68 **Modern Weapons Pack**. Complete the authenticated Package Manager download or restore the owned archive.
 - 69 **Outlaw Loops - Modern Western Music**. Complete the authenticated Package Manager download or restore the owned archive.
