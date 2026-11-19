@@ -3,7 +3,7 @@
 Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows in priority order. This report records the last verified state of each package.
 
 - Archive evidence for 70 of 71 packages, with 69,062,721,720 bytes in inventoried payloads before Unity sidecars.
-- 48 packages recorded as active in the Pile, totaling 41,235,393,513 payload bytes.
+- 56 packages recorded as active in the Pile, totaling 43,233,298,600 payload bytes.
 - 71 confirmed asset metadata checkpoints. Tracked vendor payload totals 64,532,053 bytes of separately licensed source and media.
 - 82 inventoried files at or above 50 MiB. See [Local-only size exclusions](MovingViolation/LocalOnlyRestore.csv) for all local-only source paths and sidecars.
 - Isolated Unity 6000.3.6f1 URP baseline: exit code 0, refresh completed True, compiler errors 0. The live Pile had an existing Infinity PBR demo prefab error before this intake.
@@ -11,9 +11,9 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | Disposition | Packages |
 | --- | ---: |
 | `ALREADY_PRESENT_VALIDATED` | 1 |
-| `FAILED_RETRY_NEEDED` | 12 |
-| `INCOMPATIBLE_ISOLATED` | 11 |
-| `LOCAL_ONLY_LICENSE` | 47 |
+| `FAILED_RETRY_NEEDED` | 3 |
+| `INCOMPATIBLE_ISOLATED` | 12 |
+| `LOCAL_ONLY_LICENSE` | 55 |
 
 ## Evidence and rehydration
 
@@ -47,7 +47,7 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 09 | Love/Hate | [7a40b24](https://github.com/Bregermann/Asset-Consideration-Pile/commit/7a40b24ed575354b893895685a820d3783fc6f94) | 1,889 B |
 | 10 | Human Basic Motions | [c91e8ab](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c91e8ab41fd85d195a9b2df1ec8af9c3e57cc1c8) | 1,857 B |
 | 11 | Scene Streamer | [e175898](https://github.com/Bregermann/Asset-Consideration-Pile/commit/e1758980fd1e6b493792084b33ee8cc5ba8d1be6) | 774 B |
-| 12 | City / Street Environments Bundle (8 Packs) | [8b2a8de](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8b2a8decfe99447e173d6f3419a041d629533488) | 928 B |
+| 12 | City / Street Environments Bundle (8 Packs) | [9ba069f](https://github.com/Bregermann/Asset-Consideration-Pile/commit/9ba069f00588f89425601067328e80907644e65a) | 801 B |
 | 13 | Modern restaurant - building and interior | [88c692f](https://github.com/Bregermann/Asset-Consideration-Pile/commit/88c692fcdbfea157eeac6025c5bdfb34225a2a67) | 845 B |
 | 14 | Retro Police Station Environment / Exterior + Interior | [60b7f39](https://github.com/Bregermann/Asset-Consideration-Pile/commit/60b7f39d9b08a0decfb40e3c429a576b4b9fdbfb) | 1,093 B |
 | 15 | Compass Navigator Pro 4 | [dcf2379](https://github.com/Bregermann/Asset-Consideration-Pile/commit/dcf2379bde7d6bc39f9aad9063c0fb34022d5c4e) | 789 B |
@@ -63,9 +63,9 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 25 | Mesh Demolisher | [63894ed](https://github.com/Bregermann/Asset-Consideration-Pile/commit/63894ed49ea4c8bdd559772705e6cbc2c4c748d5) | 1,760 B |
 | 26 | Police Car & Helicopter | [2e44388](https://github.com/Bregermann/Asset-Consideration-Pile/commit/2e44388e3bf91c7b2480121a2759ca7d0805b058) | 829 B |
 | 27 | Core-Collapse | [c7a6ac1](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c7a6ac1d1b8511d51722c7ed2e3b6be7cfb0070e) | 1,770 B |
-| 28 | Customizable 3D Characters Complete Bundle | [7a5ee4d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/7a5ee4d279a980ce24de0a27394ee26c52c0a7e7) | 924 B |
+| 28 | Customizable 3D Characters Complete Bundle | [e7aad21](https://github.com/Bregermann/Asset-Consideration-Pile/commit/e7aad21b51639bd6b4538756b97613bd2db0ae8c) | 809 B |
 | 29 | FlexibleGlassDestructor | [d3414ee](https://github.com/Bregermann/Asset-Consideration-Pile/commit/d3414ee5bdece9e25086f5f80387b6ee9efda578) | 1,771 B |
-| 30 | Industrial Props Equipment Mega Bundle | [51ece12](https://github.com/Bregermann/Asset-Consideration-Pile/commit/51ece124a2c8b5e609774d70745b1a8d6116d911) | 808 B |
+| 30 | Industrial Props Equipment Mega Bundle | [6ec5c8b](https://github.com/Bregermann/Asset-Consideration-Pile/commit/6ec5c8b4ac34e1b0d24592f6bb8552ff65f9502a) | 796 B |
 | 31 | POLYGON - Nightclubs Pack - Art by Synty | [561858d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/561858d5e2bb9ab5c646385f412a8658262b3804) | 1,945 B |
 | 32 | Vista Personal - Procedural Terrain Generator with Biomes | [c1fd053](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c1fd053c8fa223c93a7d79375d51a01b05db5b52) | 748 B |
 | 33 | EmbersStorm - Free Piper M350 Plane | [33f51a4](https://github.com/Bregermann/Asset-Consideration-Pile/commit/33f51a43abddc18562f85295da3a2d5a3edd61b3) | 829 B |
@@ -76,10 +76,10 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 38 | Human Melee Animations | [06ff8bb](https://github.com/Bregermann/Asset-Consideration-Pile/commit/06ff8bbf8bf24a3b719aa51cc7801d9011d3bbec) | 1,865 B |
 | 39 | MC Greet & Talk - Believable 3D Animations by MoCap Central | [13445de](https://github.com/Bregermann/Asset-Consideration-Pile/commit/13445de49a555ec8e43636d0c1885d29afea7598) | 862 B |
 | 40 | UI Navigation Wizard - Gamepad / Keyboard Navigation & Selection | [f8f3d2d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f8f3d2d2ddf6c7e9ddaf6810ca2e2b3487234705) | 848 B |
-| 41 | Modular Burger Shop Environment | [3bb1017](https://github.com/Bregermann/Asset-Consideration-Pile/commit/3bb101764004e7300d2c5868e633413897dfae60) | 697 B |
-| 42 | Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory, Warehouse) | [b67d26f](https://github.com/Bregermann/Asset-Consideration-Pile/commit/b67d26f1e6dc544255ee61665bfdb1b0b0483d65) | 903 B |
+| 41 | Modular Burger Shop Environment | [3678731](https://github.com/Bregermann/Asset-Consideration-Pile/commit/36787317ad878e327a8762fe4f910511df904ec0) | 809 B |
+| 42 | Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory, Warehouse) | [afa4569](https://github.com/Bregermann/Asset-Consideration-Pile/commit/afa4569bc2ee792df252e0a61cae3a453238c117) | 893 B |
 | 43 | Omni Animation - Core Locomotion Pack | [f5136d3](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f5136d3dc36b32be64cc4a0fc5b16e745fcf6337) | 2,009 B |
-| 44 | Prefab World Builder | [e8ff10e](https://github.com/Bregermann/Asset-Consideration-Pile/commit/e8ff10e61c5f8f396b1aa40d66e16d8646180582) | 795 B |
+| 44 | Prefab World Builder | [d7ba931](https://github.com/Bregermann/Asset-Consideration-Pile/commit/d7ba93141f2bc1b33f2a2d7564c27db2915a2793) | 816 B |
 | 45 | Ultimate Sound FX Bundle | [ee3ec2d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/ee3ec2d48b95bf6c52240447c5fb0256ea3c3fd1) | 1,584 B |
 | 46 | Procedural Cracks | [c22d62b](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c22d62b87db32cf9249dac7638a4adc7462f7ccc) | 796 B |
 | 47 | Urban Abandoned District | [4884a90](https://github.com/Bregermann/Asset-Consideration-Pile/commit/4884a904956a939dc34b069be0f4a6d2d427c042) | 943 B |
@@ -96,17 +96,17 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 58 | Game Action System - Gameplay Interaction Framework | [c5560c1](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c5560c198405e3770ab72d9fc3b35eabe35489f9) | 1,848 B |
 | 59 | Industrial Shipping Container Pack | [ef1ef54](https://github.com/Bregermann/Asset-Consideration-Pile/commit/ef1ef5416fa55104f91d572c15ad8661ac9fd6fb) | 829 B |
 | 60 | Base Helicopter Controller | [6ade1d3](https://github.com/Bregermann/Asset-Consideration-Pile/commit/6ade1d35c7b4c7008f0b5979d879778a6e784f7c) | 1,725 B |
-| 61 | Easy Drone Controller | [857f3aa](https://github.com/Bregermann/Asset-Consideration-Pile/commit/857f3aa0c0f7af487253078f4a4934cd43d2c7fb) | 778 B |
+| 61 | Easy Drone Controller | [35e145b](https://github.com/Bregermann/Asset-Consideration-Pile/commit/35e145b3afaf6e92454525b2845535430b675003) | 746 B |
 | 62 | Free Fire VFX - URP | [8751946](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8751946fe23172acebbd0d857c3442cb4a1d5016) | 1,924 B |
 | 63 | French Quarter Street Environment | [73b7abc](https://github.com/Bregermann/Asset-Consideration-Pile/commit/73b7abc897ae93bfc3254524d5ee016c71016969) | 952 B |
-| 64 | GamePad and Keyboard Input Sprites for TextMesh Pro | [228a89d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/228a89d1845d2fe18629752d352f377177f59ae5) | 685 B |
-| 65 | Mall Environment | [c633364](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c633364498da5843ee3e22e1428baa3ae80c7196) | 694 B |
+| 64 | GamePad and Keyboard Input Sprites for TextMesh Pro | [dc04733](https://github.com/Bregermann/Asset-Consideration-Pile/commit/dc0473300f5ebac622acc378f084d484454f4733) | 776 B |
+| 65 | Mall Environment | [14ef62e](https://github.com/Bregermann/Asset-Consideration-Pile/commit/14ef62e37d77d514fff6253d1c004f7b86ca8d73) | 758 B |
 | 66 | Midnight Downtown | [05df11d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/05df11d27a52356e454d71092a982d57eb62f997) | 1,941 B |
 | 67 | Modern Guns: Handgun | [f285014](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f285014b27c97b416a45bbc68dba97c35503ce1c) | 1,886 B |
 | 68 | Modern Weapons Pack | [8862aeb](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8862aeb6a281a35d0edfcec77efc47532b80c5c4) | 1,055 B |
-| 69 | Outlaw Loops - Modern Western Music | [177e81b](https://github.com/Bregermann/Asset-Consideration-Pile/commit/177e81b38382032ed5bf65614ea455a76a773fdc) | 687 B |
+| 69 | Outlaw Loops - Modern Western Music | [0d58853](https://github.com/Bregermann/Asset-Consideration-Pile/commit/0d58853521fa8d1b6b4ef1aff0b72d038b327b5e) | 748 B |
 | 70 | Screen Damage | [2efffde](https://github.com/Bregermann/Asset-Consideration-Pile/commit/2efffdec0b9d95c8953c63223f8f6d5ad45c65b9) | 1,724 B |
-| 71 | Trailer with Chassis Pack | [8d26a16](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8d26a16a04efb0707ba9ff23f1126a89c18d07e7) | 644 B |
+| 71 | Trailer with Chassis Pack | [b3d5e3a](https://github.com/Bregermann/Asset-Consideration-Pile/commit/b3d5e3a59c22f8c92221fb998f39cdb953186ed6) | 751 B |
 
 ## Separately licensed payload pushes
 
@@ -124,18 +124,9 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 
 ## Outstanding work
 
-- 12 **City / Street Environments Bundle (8 Packs)**. The Unity 6 URP wrapper test passed. All eight separately entitled constituent archives are verified, with individual intake evidence. The wrapper is preserved in isolated intake storage. [Restore notes](MovingViolation/Packages/12.md)
-- 28 **Customizable 3D Characters Complete Bundle**. The native Unity smoke validated the small documentation wrapper. The verified outer archive ships a README and customization guide. The 12 constituent assets use separate Asset Store products, each with its own entitlement, archive and Unity validation. [Restore notes](MovingViolation/Packages/28.md)
-- 30 **Industrial Props Equipment Mega Bundle**. The parent documentation wrapper passed Unity smoke validation. All 21 constituent products have individual archive and Unity evidence. [Restore notes](MovingViolation/Packages/30.md)
-- 41 **Modular Burger Shop Environment**. Reused the recorded successful isolated Unity 6000.3.6f1 URP validation for this unchanged archive candidate. The live Pile was unavailable for a before/after confirmation. The isolated assets remain intact. [Restore notes](MovingViolation/Packages/41.md)
-- 42 **Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory, Warehouse)**. Tested the vendor-shipped URP subpackage in isolation from the HDRP and Built-in editions. The test preserved the existing Pile folder metadata and ran the candidate in isolation. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. The live Pile was unavailable for a before/after confirmation. The isolated assets remain intact. [Restore notes](MovingViolation/Packages/42.md)
-- 44 **Prefab World Builder**. The previous batch import refreshed and compiled, then timed out waiting for asynchronous operations. This retry explicitly loaded the package editor window class after Unity imported it. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. The live Pile was unavailable for a before/after confirmation. The isolated assets remain intact. [Restore notes](MovingViolation/Packages/44.md)
-- 61 **Easy Drone Controller**. The test preserved the existing Pile folder metadata and ran the candidate in isolation. Reused the recorded successful isolated Unity 6000.3.6f1 URP validation for this unchanged archive candidate. The live Pile was unavailable for a before/after confirmation. The isolated assets remain intact. [Restore notes](MovingViolation/Packages/61.md)
-- 64 **GamePad and Keyboard Input Sprites for TextMesh Pro**. Reused the recorded successful isolated Unity 6000.3.6f1 URP validation for this unchanged archive candidate. The live Pile was unavailable for a before/after confirmation. The isolated assets remain intact. [Restore notes](MovingViolation/Packages/64.md)
-- 65 **Mall Environment**. Reused the recorded successful isolated Unity 6000.3.6f1 URP validation for this unchanged archive candidate. The live Pile was unavailable for a before/after confirmation. The isolated assets remain intact. [Restore notes](MovingViolation/Packages/65.md)
+- 12 **City / Street Environments Bundle (8 Packs)**. The Unity 6 URP smoke test passed for the documentation wrapper. All 8 constituent archives were verified and individually tested. [Restore notes](MovingViolation/Packages/12.md)
+- 28 **Customizable 3D Characters Complete Bundle**. The Unity 6 URP smoke test passed for the documentation wrapper. The 12 constituent products use separate Asset Store entitlements and were unavailable in the signed-in Unity account. [Restore notes](MovingViolation/Packages/28.md)
 - 68 **Modern Weapons Pack**. Unity’s signed-in Package Manager returned an ownership record for product 14233. The native download was requested on three occasions and returned AssetStoreOperationError on both observed retries. Neither verified cache held a complete matching archive, so no source import or Unity smoke could run. [Restore notes](MovingViolation/Packages/68.md)
-- 69 **Outlaw Loops - Modern Western Music**. Reused the recorded successful isolated Unity 6000.3.6f1 URP validation for this unchanged archive candidate. The live Pile was unavailable for a before/after confirmation. The isolated assets remain intact. [Restore notes](MovingViolation/Packages/69.md)
-- 71 **Trailer with Chassis Pack**. Reused the recorded successful isolated Unity 6000.3.6f1 URP validation for this unchanged archive candidate. The live Pile was unavailable for a before/after confirmation. The isolated assets remain intact. [Restore notes](MovingViolation/Packages/71.md)
 
 ## Isolated compatibility results
 
@@ -147,6 +138,7 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 - 21 **Controllable Forklift Free**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 1 matched asset/dependency import errors. First import diagnostic: Start importing Assets/FreeForkLift/Prefabs/Main Camera.prefab using Guid(a806d004969b3054db4834b58b102064) (PrefabImporter)Problem detected while importing the Prefab file: 'Assets/FreeForkLift/Prefabs/Main Camera.prefab'.. [Package evidence](MovingViolation/Packages/21.md)
 - 24 **Weatherade: Snow and Rain System**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 1, refresh completed False, 175 C# error lines and 0 matched asset/dependency import errors. First compiler diagnostic: Assets\NOT_Lonely\FirstPersonController\NL_Footsteps.cs(15,20): error CS0619: 'PhysicMaterial' is obsolete: 'PhysicMaterial has been renamed to PhysicsMaterial. Please use PhysicsMaterial instead. (UnityUpgradable) -> PhysicsMaterial'. [Package evidence](MovingViolation/Packages/24.md)
 - 27 **Core-Collapse**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. Central integration was deferred because the archive ships project-scope paths or overlaps existing content. [Package evidence](MovingViolation/Packages/27.md)
+- 30 **Industrial Props Equipment Mega Bundle**. The Unity 6 URP smoke test passed for the documentation wrapper. All 21 constituent archives were verified and individually tested. [Package evidence](MovingViolation/Packages/30.md)
 - 38 **Human Melee Animations**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. The isolated archive remains available for a scoped merge. Existing path has different content: Assets/Kevin Iglesias/Human Animations/Animations/Female/Combat/HumanF@Stun01.fbx. [Package evidence](MovingViolation/Packages/38.md)
 - 49 **Complete Off-Road Racing (PC / Console) for URP**. Retested the original vendor Assets in a separate Unity project without the template sample scene, Settings assets or input asset. Isolated Unity 6000.3.6f1 URP smoke yielded exit 1, refresh completed False, 36 C# error lines and 0 matched asset/dependency import errors. First compiler diagnostic: Assets\Off_Road_Racing\Scripts\AI\Race_Manager.cs(259,51): error CS1501: No overload for method 'FindObjectsByType' takes 0 arguments. [Package evidence](MovingViolation/Packages/49.md)
 - 60 **Base Helicopter Controller**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 1, refresh completed False, 3 C# error lines and 0 matched asset/dependency import errors. First compiler diagnostic: Assets\Helicopter\Scripts\CheckpointController.cs(4,23): error CS0234: The type or namespace name 'Policy' does not exist in the namespace 'System.Security' (are you missing an assembly reference?). [Package evidence](MovingViolation/Packages/60.md)
