@@ -1,6 +1,6 @@
 parent,component,asset_store_id,title,publisher,ownership,archive_verified,version,archive_bytes,status,unity_evidence,metadata_checkpoint_sha,local_restore_path,source
-12,1,290716,Roman Street Environment,Leartes Studios,confirmed,False,,0,FAILED_RETRY_NEEDED,The authenticated package download is pending.,,,https://assetstore.unity.com/packages/package/290716
-12,2,315413,Chinese Alley Environment,Leartes Studios,confirmed,False,,0,FAILED_RETRY_NEEDED,The authenticated package download is pending.,,,https://assetstore.unity.com/packages/package/315413
+12,1,290716,Roman Street Environment,Leartes Studios,confirmed,True,1.0,6235755421,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/290716
+12,2,315413,Chinese Alley Environment,Leartes Studios,confirmed,True,1.0,4532250114,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/315413
 12,3,272227,Italian Alley,Leartes Studios,confirmed,True,1.0,3582529652,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/272227
 12,4,303625,French Quarter Street Environment,Leartes Studios,confirmed,True,2.0,4584158237,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/303625
 12,5,228679,1970 s New York City Alley,Leartes Studios,confirmed,True,1.0,800156810,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/228679
@@ -24,8 +24,8 @@ parent,component,asset_store_id,title,publisher,ownership,archive_verified,versi
 30,3,293984,12 Industrial Props Pack,EVOLVE Studio LTD,confirmed,True,1.0,1122598263,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/293984
 30,4,294450,Abandoned Props Pack,EVOLVE Studio LTD,confirmed,True,1.0,1214472309,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/294450
 30,5,294339,Construction Props Bundle,EVOLVE Studio LTD,confirmed,True,1.0,376960339,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/294339
-30,6,295106,Industrial Building Materials pack,EVOLVE Studio LTD,confirmed,False,,0,FAILED_RETRY_NEEDED,The authenticated package download is pending.,,,https://assetstore.unity.com/packages/package/295106
-30,7,294068,Industrial Equipment pack,EVOLVE Studio LTD,confirmed,False,,0,FAILED_RETRY_NEEDED,The authenticated package download is pending.,,,https://assetstore.unity.com/packages/package/294068
+30,6,295106,Industrial Building Materials Pack,EVOLVE Studio LTD,confirmed,True,1.0,439274395,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/295106
+30,7,294068,Industrial Equipment Pack,EVOLVE Studio LTD,confirmed,True,1.0,1983603007,FAILED_RETRY_NEEDED,The verified archive is awaiting its individual Unity test.,,,https://assetstore.unity.com/packages/package/294068
 30,8,291350,Industrial Fabric Pack,EVOLVE Studio LTD,confirmed,False,,0,FAILED_RETRY_NEEDED,The authenticated package download is pending.,,,https://assetstore.unity.com/packages/package/291350
 30,9,291921,Industrial Fireset Collection,EVOLVE Studio LTD,confirmed,False,,0,FAILED_RETRY_NEEDED,The authenticated package download is pending.,,,https://assetstore.unity.com/packages/package/291921
 30,10,291370,Industrial Fuse Box Pack,EVOLVE Studio LTD,confirmed,False,,0,FAILED_RETRY_NEEDED,The authenticated package download is pending.,,,https://assetstore.unity.com/packages/package/291370
