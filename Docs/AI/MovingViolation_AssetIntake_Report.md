@@ -4,15 +4,15 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 
 - Archive evidence for 70 of 71 packages, with 69,062,721,720 bytes in inventoried payloads before Unity sidecars.
 - 22 packages recorded as active in the Pile, totaling 21,029,227,096 payload bytes.
-- 49 confirmed asset metadata checkpoints. Tracked vendor payload totals 34,352,710 bytes of separately licensed source and media.
+- 49 confirmed asset metadata checkpoints. Tracked vendor payload totals 53,137,733 bytes of separately licensed source and media.
 - 82 inventoried files at or above 50 MiB. See [Local-only size exclusions](MovingViolation/LocalOnlyRestore.csv) for all local-only source paths and sidecars.
 - Isolated Unity 6000.3.6f1 URP baseline: exit code 0, refresh completed True, compiler errors 0. The live Pile had an existing Infinity PBR demo prefab error before this intake.
 
 | Disposition | Packages |
 | --- | ---: |
 | `ALREADY_PRESENT_VALIDATED` | 1 |
-| `FAILED_RETRY_NEEDED` | 30 |
-| `INCOMPATIBLE_ISOLATED` | 19 |
+| `FAILED_RETRY_NEEDED` | 32 |
+| `INCOMPATIBLE_ISOLATED` | 17 |
 | `LOCAL_ONLY_LICENSE` | 21 |
 
 ## Evidence and rehydration
@@ -21,6 +21,8 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 - [Local-only restore catalogue](MovingViolation/LocalOnlyRestore.csv) lists 45,442 source paths with exact package identity, restore location, local-only reason and dependency notes.
 - [Local asset file index](MovingViolation/LocalAssetPaths.csv) lists verified file paths and their source package versions.
 - [Bundle constituent catalogue](MovingViolation/BundleComponents.csv) records each separately distributed city, character and industrial product.
+- [Bundle local-only restore catalogue](MovingViolation/BundleLocalOnlyRestore.csv) lists original file paths, source versions and sidecars for the independently archived constituents.
+- [Audio asset catalogue](MovingViolation/AudioAssets.csv) identifies 10,106 source clips by exact filename and path. Audition clips and confirm destination-project usage rights before copying.
 - [Weather foundation and open checks](MovingViolation/WeatherFoundation.md) maps the Interstate Hauler coordinator, Weather Maker and Weatherade.
 - A licensed developer can retrieve packages through Unity Package Manager → My Assets using each row’s title, publisher and ID. Match the recorded archive version. Store archives outside Git and import validated assets with original vendor paths and .meta GUIDs. Review isolated candidates in a test copy.
 - A missing archive in the manifest represents a retrieval or verification gap. A positive purchase record by itself supplies no local package bytes.
@@ -61,17 +63,17 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 29 | FlexibleGlassDestructor | [d3414ee](https://github.com/Bregermann/Asset-Consideration-Pile/commit/d3414ee5bdece9e25086f5f80387b6ee9efda578) | 1,771 B |
 | 30 | Industrial Props Equipment Mega Bundle | [68254a0](https://github.com/Bregermann/Asset-Consideration-Pile/commit/68254a01779cbbd239735da6469d21ed28b29ad9) | 992 B |
 | 31 | POLYGON - Nightclubs Pack - Art by Synty | [561858d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/561858d5e2bb9ab5c646385f412a8658262b3804) | 1,945 B |
-| 32 | Vista Personal - Procedural Terrain Generator with Biomes | [5371989](https://github.com/Bregermann/Asset-Consideration-Pile/commit/5371989cf1b8299a3d7947a8ea9c9026eb0033ab) | 2,027 B |
+| 32 | Vista Personal - Procedural Terrain Generator with Biomes | [a1ac150](https://github.com/Bregermann/Asset-Consideration-Pile/commit/a1ac150b0032d4e0590d9d5bcfb81a399a28f61c) | 808 B |
 | 33 | EmbersStorm - Free Piper M350 Plane | [e0f9f0f](https://github.com/Bregermann/Asset-Consideration-Pile/commit/e0f9f0f9a6fdb8a332206adf4579d9824a4c456f) | 1,605 B |
 | 34 | Road Props Collection | [f812ebf](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f812ebfde2e9a7d821072f52f8bbb41c3f572f76) | 1,767 B |
 | 35 | Scriptable Sheets | [37fc576](https://github.com/Bregermann/Asset-Consideration-Pile/commit/37fc5762462c0809a8f297100b926dbfd1b215c5) | 1,801 B |
 | 36 | Yue Destructible Objects Package Glass | [735f692](https://github.com/Bregermann/Asset-Consideration-Pile/commit/735f692cd57e9be53ce409a58d5ccb5f14393ba7) | 1,776 B |
-| 37 | Garage Warehouse Environment ( Garage Warehouse , Modular Garage , Garage ) | [55bd494](https://github.com/Bregermann/Asset-Consideration-Pile/commit/55bd494fdb4c5f5069b107166fc80322d24c0f32) | 2,064 B |
+| 37 | Garage Warehouse Environment ( Garage Warehouse , Modular Garage , Garage ) | [355cb4d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/355cb4d4f9c86f07d16cd34f11fef2b597502c34) | 960 B |
 | 38 | Human Melee Animations | [06ff8bb](https://github.com/Bregermann/Asset-Consideration-Pile/commit/06ff8bbf8bf24a3b719aa51cc7801d9011d3bbec) | 1,865 B |
 | 39 | MC Greet & Talk - Believable 3D Animations by MoCap Central | [3922428](https://github.com/Bregermann/Asset-Consideration-Pile/commit/3922428a6086c5038686c3d4b4871fd5cf9f344e) | 1,728 B |
-| 40 | UI Navigation Wizard - Gamepad / Keyboard Navigation & Selection | [9542c81](https://github.com/Bregermann/Asset-Consideration-Pile/commit/9542c81bd1be26a2b426b418130d8ebbcc11c6d6) | 1,864 B |
+| 40 | UI Navigation Wizard - Gamepad / Keyboard Navigation & Selection | [e7790fd](https://github.com/Bregermann/Asset-Consideration-Pile/commit/e7790fd21727b7be0f5a39ca05edec52a368c50d) | 797 B |
 | 41 | Modular Burger Shop Environment | [c397494](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c3974944e10b65f5914c2b3399c7979ebef7454e) | 1,839 B |
-| 42 | Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory, Warehouse) | [f6d30ed](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f6d30edb4b2d6ee2cae968004f54128a85aa790f) | 2,084 B |
+| 42 | Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory, Warehouse) | [61e0fbc](https://github.com/Bregermann/Asset-Consideration-Pile/commit/61e0fbcc32bcb382cc6582f711d972bf5ecf130b) | 846 B |
 | 43 | Omni Animation - Core Locomotion Pack | [f5136d3](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f5136d3dc36b32be64cc4a0fc5b16e745fcf6337) | 2,009 B |
 | 44 | Prefab World Builder | [60b925c](https://github.com/Bregermann/Asset-Consideration-Pile/commit/60b925ce688a0cc798ad46cad72c7b1a0da26a2f) | 1,564 B |
 | 45 | Ultimate Sound FX Bundle | [ee3ec2d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/ee3ec2d48b95bf6c52240447c5fb0256ea3c3fd1) | 1,584 B |
@@ -84,9 +86,12 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 
 - 03 JU TPS 3 - Third Person Shooter GameKit + Vehicle Physics — 23,684,823 bytes. [Verified CC0 commit](https://github.com/Bregermann/Asset-Consideration-Pile/commit/71ecdc0b302b780aead512c32495e1e8ec17d36f)
 - 22 Instant Destruction - Easy GPU Fracture — 838,162 bytes. [Verified CC0 commit](https://github.com/Bregermann/Asset-Consideration-Pile/commit/df9424887e25cd1ae07a4fa8154f7cf0fc69b479)
+- 51 Oceanis 2026 Pro URP Water Framework — 5,066,209 bytes. [Verified CC0 commit](https://github.com/Bregermann/Asset-Consideration-Pile/commit/932ea07ab2f195fb1374255f9522b9fff4bc23fd)
 - 20 Cinemachine. [Verified Unity companion-licensed code commit](https://github.com/Bregermann/Asset-Consideration-Pile/commit/1e381b4a191f19ad8202971a5d2b8a7c8654a534)
 - 05 Dialogue System for Unity. [Verified separately licensed subset](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8ef0d2179d3f421f317dbefa113fa1884c4b6255)
 - 40 UI Navigation Wizard - Gamepad / Keyboard Navigation & Selection. [Verified separately licensed subset](https://github.com/Bregermann/Asset-Consideration-Pile/commit/66387d3b7b92b19cb2f3c291aa867627e2076778)
+- 51 Oceanis 2026 Pro URP Water Framework. [Verified separately licensed subset](https://github.com/Bregermann/Asset-Consideration-Pile/commit/779db921791615361265c496ab5284ae53ea94b7)
+- 53 Advanced Foliage Pack 2.0. [Verified separately licensed subset](https://github.com/Bregermann/Asset-Consideration-Pile/commit/5808cc4f0256cc92551cf9b9c232a19a1ce869b7)
 
 ## Outstanding work
 
@@ -94,6 +99,8 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 - 13 **Modern restaurant - building and interior**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 8 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `2d94245116ccc3d4ebc1d22a0dcdad50` (1 files), `9e98653779b302f4b8541b444993a920` (1 files), `c1cb7e9e120078f43bce4f0b1be547a7` (1 files), `7a34fa72bd4185749832024e9c8010bf` (1 files), `48a79b01ea5641d4aa6daa2e23605641` (1 files).
 - 28 **Customizable 3D Characters Complete Bundle**. Vendor-listed constituent product IDs: 268078, 268079, 252324, 259337, 253976, 253977, 268076, 268077, 259335, 259336, 253975, 252325. Restore only confirmed owned downloads. The bundle parent remains pending until the constituent results are recorded.
 - 30 **Industrial Props Equipment Mega Bundle**. Vendor-listed constituent product IDs: 259967, 261238, 293984, 294450, 294339, 295106, 294068, 291350, 291921, 291370, 292108, 291685, 292306, 291948, 293195, 291738, 294374, 364538, 292001, 314050, 291296. Restore only confirmed owned downloads. The bundle parent remains pending until the constituent results are recorded.
+- 37 **Garage Warehouse Environment ( Garage Warehouse , Modular Garage , Garage )**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 56 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `da692e001514ec24dbc4cca1949ff7e8` (82 files), `abc00000000001473947370524049607` (6 files), `abc00000000006964670228949020795` (3 files), `abc00000000010698298121378445014` (2 files), `abc00000000005719200563028355929` (2 files). The Asset Store archive also ships other render pipeline editions. Keep the URP paths and sidecars together.
+- 40 **UI Navigation Wizard - Gamepad / Keyboard Navigation & Selection**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 2 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `3006e817c8833e74693995be06b17c95` (12 files), `8f586378b4e144a9851e7b34d9b748ee` (6 files). Preserved the existing Pile Gizmos folder GUID and retained the conflicting vendor folder sidecar in the isolated backup.
 - 44 **Prefab World Builder**. Static preflight found 0 duplicate GUIDs within the archive, 7 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 2 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `b51a78e223a2e504bb88a059b55229ea` (1 files), `2d08ce26990eb1a4a9177b860541e702` (1 files).
 - 46 **Procedural Cracks**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 0 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review.
 - 48 **Character Customizer**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 81 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `da692e001514ec24dbc4cca1949ff7e8` (60 files), `93b18b8805345f949b2b816b36367cea` (8 files), `7d5d86426bdba414ab017ded309ca736` (6 files), `c374ac648d8927f4997431b3a097f0c3` (6 files), `68e6db2ebdc24f95958faec2be5558d6` (4 files).

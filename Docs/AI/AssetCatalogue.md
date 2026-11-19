@@ -16,6 +16,10 @@ The inventory includes files under `Assets/` and omits Unity `.meta` sidecars. C
 
 For each requested update, refresh this catalogue and inventory, then commit and push the new imports by pack. Use regular Git. Leave files over 99,000,000 bytes local, record their paths here and add exact ignore entries. Keep each commit below 1,000,000,000 bytes of source files, grouping assets with their sidecars.
 
+## Moving Violation intake
+
+The S/A intake adds a searchable audio index, exact Unity Store sources, and Unity compatibility and restore evidence. Search the clip and path columns for an action, material, vehicle or setting, then use the package manifest to check availability. [Additional audio assets](MovingViolation/AudioAssets.csv) and [71-package manifest](MovingViolation_AssetIntake_Manifest.csv).
+
 ## Local files over 99 MB
 
 None at this inventory snapshot.
