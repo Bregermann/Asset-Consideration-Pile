@@ -2,22 +2,23 @@
 
 Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows in priority order. This report records the last verified state of each package.
 
-- Archive evidence for 70 of 71 packages, with 69,061,890,903 bytes in inventoried payloads before Unity sidecars.
-- 10 packages recorded as active in the Pile, totaling 18,105,752,442 payload bytes.
-- 18 confirmed asset metadata checkpoints. Tracked vendor payload totals 23,684,823 bytes of separately licensed media.
-- 82 inventoried files at or above 50 MiB. See [Local-only size exclusions](MovingViolation/LocalOnlyRestore.csv) for paths and sidecars.
+- Archive evidence for 70 of 71 packages, with 69,062,721,720 bytes in inventoried payloads before Unity sidecars.
+- 19 packages recorded as active in the Pile, totaling 20,867,319,544 payload bytes.
+- 31 confirmed asset metadata checkpoints. Tracked vendor payload totals 25,345,120 bytes of separately licensed source and media.
+- 82 inventoried files at or above 50 MiB. See [Local-only size exclusions](MovingViolation/LocalOnlyRestore.csv) for all local-only source paths and sidecars.
 - Isolated Unity 6000.3.6f1 URP baseline: exit code 0, refresh completed True, compiler errors 0. The live Pile had an existing Infinity PBR demo prefab error before this intake.
 
 | Disposition | Packages |
 | --- | ---: |
 | `ALREADY_PRESENT_VALIDATED` | 1 |
-| `FAILED_RETRY_NEEDED` | 57 |
-| `INCOMPATIBLE_ISOLATED` | 4 |
-| `LOCAL_ONLY_LICENSE` | 9 |
+| `FAILED_RETRY_NEEDED` | 43 |
+| `INCOMPATIBLE_ISOLATED` | 9 |
+| `LOCAL_ONLY_LICENSE` | 18 |
 
 ## Evidence and rehydration
 
 - [71-package manifest](MovingViolation_AssetIntake_Manifest.csv) tracks exact identity, activity, local source state, compatibility evidence, dependencies and verified checkpoint SHAs.
+- [Local-only restore catalogue](MovingViolation/LocalOnlyRestore.csv) lists 45,442 source paths with exact package identity, restore location, local-only reason and dependency notes.
 - [Local asset file index](MovingViolation/LocalAssetPaths.csv) lists verified file paths and their source package versions.
 - [Weather foundation and open checks](MovingViolation/WeatherFoundation.md) maps the Interstate Hauler coordinator, Weather Maker and Weatherade.
 - A licensed developer can retrieve packages through Unity Package Manager → My Assets using each row’s title, publisher and ID. Match the recorded archive version. Store archives outside Git and import validated assets with original vendor paths and .meta GUIDs. Review isolated candidates in a test copy.
@@ -39,38 +40,39 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 09 | Love/Hate | [7a40b24](https://github.com/Bregermann/Asset-Consideration-Pile/commit/7a40b24ed575354b893895685a820d3783fc6f94) | 1,889 B |
 | 10 | Human Basic Motions | [c91e8ab](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c91e8ab41fd85d195a9b2df1ec8af9c3e57cc1c8) | 1,857 B |
 | 11 | Scene Streamer | [e175898](https://github.com/Bregermann/Asset-Consideration-Pile/commit/e1758980fd1e6b493792084b33ee8cc5ba8d1be6) | 774 B |
-| 12 | City / Street Environments Bundle (8 Packs) | [46e81cf](https://github.com/Bregermann/Asset-Consideration-Pile/commit/46e81cfe77d83190a457f044dcbb79029bce39dc) | 1,772 B |
+| 12 | City / Street Environments Bundle (8 Packs) | [55db6d3](https://github.com/Bregermann/Asset-Consideration-Pile/commit/55db6d301f01851154476a9868a0e6a4b4fa6692) | 593 B |
 | 13 | Modern restaurant - building and interior | [6cbf421](https://github.com/Bregermann/Asset-Consideration-Pile/commit/6cbf421000e8a6a3ad76e1ff976359bf88d6be7b) | 761 B |
-| 14 | Retro Police Station Environment / Exterior + Interior | [d79e1b2](https://github.com/Bregermann/Asset-Consideration-Pile/commit/d79e1b2915b7d0635480ff50cfc73256aa97ca14) | 2,242 B |
-| 15 | Compass Navigator Pro 4 | [0375f11](https://github.com/Bregermann/Asset-Consideration-Pile/commit/0375f1108104279119a9d1032fc7566fe96dd11e) | 1,911 B |
+| 14 | Retro Police Station Environment / Exterior + Interior | [60b7f39](https://github.com/Bregermann/Asset-Consideration-Pile/commit/60b7f39d9b08a0decfb40e3c429a576b4b9fdbfb) | 1,093 B |
+| 15 | Compass Navigator Pro 4 | [dcf2379](https://github.com/Bregermann/Asset-Consideration-Pile/commit/dcf2379bde7d6bc39f9aad9063c0fb34022d5c4e) | 789 B |
 | 16 | Heat - Complete Modern UI | [f601477](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f6014772683deec1c0853b6dc5bb63f9143f2a70) | 1,918 B |
 | 17 | Advanced Helicopter Controller | [8ccb841](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8ccb8411f0b9e0d3fe422d592452d1a53f7cd9f5) | 1,671 B |
+| 18 | Train Controller (Railroad System) ULTIMATE COLLECTION | [11ecf75](https://github.com/Bregermann/Asset-Consideration-Pile/commit/11ecf754e62cfb6ad0fc3235ccf258bf37c3f014) | 2,394 B |
+| 19 | Weather Maker - Volumetric Clouds and Weather System for Unity | [691f498](https://github.com/Bregermann/Asset-Consideration-Pile/commit/691f498904a89edff6730cb0d20258e76b7b0939) | 1,941 B |
+| 20 | Cinemachine | [87487b2](https://github.com/Bregermann/Asset-Consideration-Pile/commit/87487b242d6ee62f3644d23fdb2aacb74b381b94) | 1,618 B |
+| 21 | Controllable Forklift Free | [0fa122a](https://github.com/Bregermann/Asset-Consideration-Pile/commit/0fa122afa26ec62eefb26bdee8e3a9b74d3ac76f) | 1,777 B |
+| 22 | Instant Destruction - Easy GPU Fracture | [3fa11a0](https://github.com/Bregermann/Asset-Consideration-Pile/commit/3fa11a0d64ae3bf804eed3e15e22c22726268e66) | 1,732 B |
+| 23 | Super Level Optimizer 2 | [29ccf20](https://github.com/Bregermann/Asset-Consideration-Pile/commit/29ccf209f32bce7189e7b268b547ae10c982b698) | 2,024 B |
+| 24 | Weatherade: Snow and Rain System | [f877c57](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f877c5784ddc5e0f02365b1ad9ba74e0b19aed08) | 2,370 B |
+| 25 | Mesh Demolisher | [63894ed](https://github.com/Bregermann/Asset-Consideration-Pile/commit/63894ed49ea4c8bdd559772705e6cbc2c4c748d5) | 1,760 B |
+| 26 | Police Car & Helicopter | [0cd45dc](https://github.com/Bregermann/Asset-Consideration-Pile/commit/0cd45dc5ff274abe7e84c62e15c99a7cab85be42) | 1,641 B |
+| 27 | Core-Collapse | [c7a6ac1](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c7a6ac1d1b8511d51722c7ed2e3b6be7cfb0070e) | 1,770 B |
+| 28 | Customizable 3D Characters Complete Bundle | [7a5ee4d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/7a5ee4d279a980ce24de0a27394ee26c52c0a7e7) | 924 B |
+| 29 | FlexibleGlassDestructor | [d3414ee](https://github.com/Bregermann/Asset-Consideration-Pile/commit/d3414ee5bdece9e25086f5f80387b6ee9efda578) | 1,771 B |
+| 30 | Industrial Props Equipment Mega Bundle | [68254a0](https://github.com/Bregermann/Asset-Consideration-Pile/commit/68254a01779cbbd239735da6469d21ed28b29ad9) | 992 B |
 | 45 | Ultimate Sound FX Bundle | [ee3ec2d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/ee3ec2d48b95bf6c52240447c5fb0256ea3c3fd1) | 1,584 B |
 
-## Separately licensed media pushes
+## Separately licensed payload pushes
 
 - 03 JU TPS 3 - Third Person Shooter GameKit + Vehicle Physics — 23,684,823 bytes. [Verified CC0 commit](https://github.com/Bregermann/Asset-Consideration-Pile/commit/71ecdc0b302b780aead512c32495e1e8ec17d36f)
+- 22 Instant Destruction - Easy GPU Fracture — 838,162 bytes. [Verified CC0 commit](https://github.com/Bregermann/Asset-Consideration-Pile/commit/df9424887e25cd1ae07a4fa8154f7cf0fc69b479)
+- 20 Cinemachine. [Verified Unity companion-licensed code commit](https://github.com/Bregermann/Asset-Consideration-Pile/commit/1e381b4a191f19ad8202971a5d2b8a7c8654a534)
 
 ## Outstanding work
 
-- 12 **City / Street Environments Bundle (8 Packs)**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 3 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `7a68c43fe1f2a47cfa234b5eeaa98012` (1 files), `23c1ce4fb46143f46bc5cb5224c934f6` (1 files), `441482e8936e35048a1dffac814e3ef8` (1 files). City bundle component IDs: 290716, 315413, 272227, 303625, 228679, 357022, 252380 and 240150.
+- 12 **City / Street Environments Bundle (8 Packs)**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 3 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `441482e8936e35048a1dffac814e3ef8` (1 files), `7a68c43fe1f2a47cfa234b5eeaa98012` (1 files), `23c1ce4fb46143f46bc5cb5224c934f6` (1 files). City bundle component IDs: 290716, 315413, 272227, 303625, 228679, 357022, 252380 and 240150.
 - 13 **Modern restaurant - building and interior**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 8 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `2d94245116ccc3d4ebc1d22a0dcdad50` (1 files), `9e98653779b302f4b8541b444993a920` (1 files), `c1cb7e9e120078f43bce4f0b1be547a7` (1 files), `7a34fa72bd4185749832024e9c8010bf` (1 files), `48a79b01ea5641d4aa6daa2e23605641` (1 files).
-- 14 **Retro Police Station Environment / Exterior + Interior**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 93 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `da692e001514ec24dbc4cca1949ff7e8` (225 files), `6e4ae4064600d784cac1e41a9e6f2e59` (19 files), `7a68c43fe1f2a47cfa234b5eeaa98012` (4 files), `0d7593b3a9277ac4696b20006c21dde2` (3 files), `4b8bcdf71d7fafa419fca1ed162f5fc9` (3 files).
-- 15 **Compass Navigator Pro 4**. Static preflight found 0 duplicate GUIDs within the archive, 0 duplicate C# file hashes and 0 source files without a shipped sidecar. Scanned text Unity assets refer to 11 GUIDs outside this package and the indexed project/registry packages. Built-in engine resources, binary serialized objects and runtime links require separate review. Highest-frequency unresolved GUIDs: `dd89cf5b9246416f84610a006f916af7` (2 files), `46328ae7462854e029d028cf838727a1` (2 files), `624d8ceb46d0543f19ff28c48ea38bd0` (2 files), `e6fa1a4fd31164876a1cf0d185e282c7` (2 files), `3315e28a11c7e4975a7e937bcda98936` (1 files).
-- 18 **Train Controller (Railroad System) ULTIMATE COLLECTION**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 19 **Weather Maker - Volumetric Clouds and Weather System for Unity**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 20 **Cinemachine**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts. Unity also publishes the supported com.unity.cinemachine UPM package. Treat registry and legacy Asset Store releases separately.
-- 21 **Controllable Forklift Free**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 22 **Instant Destruction - Easy GPU Fracture**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 23 **Super Level Optimizer 2**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 24 **Weatherade: Snow and Rain System**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 25 **Mesh Demolisher**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 26 **Police Car & Helicopter**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 27 **Core-Collapse**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 28 **Customizable 3D Characters Complete Bundle**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 29 **FlexibleGlassDestructor**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 30 **Industrial Props Equipment Mega Bundle**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 31 **POLYGON - Nightclubs Pack - Art by Synty**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
+- 28 **Customizable 3D Characters Complete Bundle**. Vendor-listed constituent product IDs: 268078, 268079, 252324, 259337, 253976, 253977, 268076, 268077, 259335, 259336, 253975, 252325. Restore only confirmed owned downloads. The bundle parent remains pending until the constituent results are recorded.
+- 30 **Industrial Props Equipment Mega Bundle**. Vendor-listed constituent product IDs: 259967, 261238, 293984, 294450, 294339, 295106, 294068, 291350, 291921, 291370, 292108, 291685, 292306, 291948, 293195, 291738, 294374, 364538, 292001, 314050, 291296. Restore only confirmed owned downloads. The bundle parent remains pending until the constituent results are recorded.
 - 32 **Vista Personal - Procedural Terrain Generator with Biomes**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 33 **EmbersStorm - Free Piper M350 Plane**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
 - 34 **Road Props Collection**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
