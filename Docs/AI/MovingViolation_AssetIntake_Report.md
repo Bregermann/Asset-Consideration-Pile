@@ -3,27 +3,29 @@
 Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows in priority order. This report records the last verified state of each package.
 
 - Archive evidence for 70 of 71 packages, with 69,062,721,720 bytes in inventoried payloads before Unity sidecars.
-- 30 packages recorded as active in the Pile, totaling 32,604,851,007 payload bytes.
-- 61 confirmed asset metadata checkpoints. Tracked vendor payload totals 64,532,053 bytes of separately licensed source and media.
+- 35 packages recorded as active in the Pile, totaling 34,121,054,437 payload bytes.
+- 71 confirmed asset metadata checkpoints. Tracked vendor payload totals 64,532,053 bytes of separately licensed source and media.
 - 82 inventoried files at or above 50 MiB. See [Local-only size exclusions](MovingViolation/LocalOnlyRestore.csv) for all local-only source paths and sidecars.
 - Isolated Unity 6000.3.6f1 URP baseline: exit code 0, refresh completed True, compiler errors 0. The live Pile had an existing Infinity PBR demo prefab error before this intake.
 
 | Disposition | Packages |
 | --- | ---: |
 | `ALREADY_PRESENT_VALIDATED` | 1 |
-| `FAILED_RETRY_NEEDED` | 23 |
-| `INCOMPATIBLE_ISOLATED` | 18 |
-| `LOCAL_ONLY_LICENSE` | 29 |
+| `FAILED_RETRY_NEEDED` | 17 |
+| `INCOMPATIBLE_ISOLATED` | 19 |
+| `LOCAL_ONLY_LICENSE` | 34 |
 
 ## Evidence and rehydration
 
 - [71-package manifest](MovingViolation_AssetIntake_Manifest.csv) tracks exact identity, activity, local source state, compatibility evidence, dependencies and verified checkpoint SHAs.
 - [Local-only restore catalogue](MovingViolation/LocalOnlyRestore.csv) lists 45,442 source paths with exact package identity, restore location, local-only reason and dependency notes.
+- [Tested pipeline and package variants](MovingViolation/PipelineVariants.csv) records 8,342 source paths from the tested scoped editions.
 - [Local asset file index](MovingViolation/LocalAssetPaths.csv) lists verified file paths and their source package versions.
 - [Bundle constituent catalogue](MovingViolation/BundleComponents.csv) records each separately distributed city, character and industrial product.
 - [Bundle local-only restore catalogue](MovingViolation/BundleLocalOnlyRestore.csv) lists original file paths, source versions and sidecars for the independently archived constituents.
 - [Audio asset catalogue](MovingViolation/AudioAssets.csv) identifies 10,106 source clips by exact filename and path. Audition clips and confirm destination-project usage rights before copying.
 - [Weather foundation and open checks](MovingViolation/WeatherFoundation.md) maps the Interstate Hauler coordinator, Weather Maker and Weatherade.
+- Restore in Unity 6000.3.6f1 with URP 17.3.0. Match the package title, publisher, ID and source version in the manifest. Use the selected URP edition where the package evidence names a nested vendor archive.
 - A licensed developer can retrieve packages through Unity Package Manager → My Assets using each row’s title, publisher and ID. Match the recorded archive version. Store archives outside Git and import validated assets with original vendor paths and .meta GUIDs. Review isolated candidates in a test copy.
 - A missing archive in the manifest represents a retrieval or verification gap. A positive purchase record by itself supplies no local package bytes.
 - The public repository may carry licence-compatible metadata and original integration work. Unity’s standard Asset Store EULA permits distribution of licensed assets as embedded in a licensed product under its terms. [Unity Asset Store EULA](https://unity.com/legal/as-terms)
@@ -57,7 +59,7 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 23 | Super Level Optimizer 2 | [29ccf20](https://github.com/Bregermann/Asset-Consideration-Pile/commit/29ccf209f32bce7189e7b268b547ae10c982b698) | 2,024 B |
 | 24 | Weatherade: Snow and Rain System | [f877c57](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f877c5784ddc5e0f02365b1ad9ba74e0b19aed08) | 2,370 B |
 | 25 | Mesh Demolisher | [63894ed](https://github.com/Bregermann/Asset-Consideration-Pile/commit/63894ed49ea4c8bdd559772705e6cbc2c4c748d5) | 1,760 B |
-| 26 | Police Car & Helicopter | [0cd45dc](https://github.com/Bregermann/Asset-Consideration-Pile/commit/0cd45dc5ff274abe7e84c62e15c99a7cab85be42) | 1,641 B |
+| 26 | Police Car & Helicopter | [2e44388](https://github.com/Bregermann/Asset-Consideration-Pile/commit/2e44388e3bf91c7b2480121a2759ca7d0805b058) | 829 B |
 | 27 | Core-Collapse | [c7a6ac1](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c7a6ac1d1b8511d51722c7ed2e3b6be7cfb0070e) | 1,770 B |
 | 28 | Customizable 3D Characters Complete Bundle | [7a5ee4d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/7a5ee4d279a980ce24de0a27394ee26c52c0a7e7) | 924 B |
 | 29 | FlexibleGlassDestructor | [d3414ee](https://github.com/Bregermann/Asset-Consideration-Pile/commit/d3414ee5bdece9e25086f5f80387b6ee9efda578) | 1,771 B |
@@ -92,7 +94,17 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 | 58 | Game Action System - Gameplay Interaction Framework | [c5560c1](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c5560c198405e3770ab72d9fc3b35eabe35489f9) | 1,848 B |
 | 59 | Industrial Shipping Container Pack | [58bf600](https://github.com/Bregermann/Asset-Consideration-Pile/commit/58bf60005f0581772964ce91094da056c431fe58) | 1,823 B |
 | 60 | Base Helicopter Controller | [6ade1d3](https://github.com/Bregermann/Asset-Consideration-Pile/commit/6ade1d35c7b4c7008f0b5979d879778a6e784f7c) | 1,725 B |
+| 61 | Easy Drone Controller | [78201db](https://github.com/Bregermann/Asset-Consideration-Pile/commit/78201db67a7f8b6943d3eb07bff27793833083fe) | 1,888 B |
+| 62 | Free Fire VFX - URP | [8751946](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8751946fe23172acebbd0d857c3442cb4a1d5016) | 1,924 B |
+| 63 | French Quarter Street Environment | [3d2782e](https://github.com/Bregermann/Asset-Consideration-Pile/commit/3d2782ef0785ccfe54045dcd9c61d784a0a5b60e) | 2,055 B |
+| 64 | GamePad and Keyboard Input Sprites for TextMesh Pro | [ec41c14](https://github.com/Bregermann/Asset-Consideration-Pile/commit/ec41c14e6ef6d64680cb22a41e23e965d481b810) | 1,708 B |
+| 65 | Mall Environment | [c85488b](https://github.com/Bregermann/Asset-Consideration-Pile/commit/c85488bbfb5829fe2cedc4f600ddd43d4d59dab3) | 1,846 B |
+| 66 | Midnight Downtown | [05df11d](https://github.com/Bregermann/Asset-Consideration-Pile/commit/05df11d27a52356e454d71092a982d57eb62f997) | 1,941 B |
+| 67 | Modern Guns: Handgun | [f285014](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f285014b27c97b416a45bbc68dba97c35503ce1c) | 1,886 B |
 | 68 | Modern Weapons Pack | [8862aeb](https://github.com/Bregermann/Asset-Consideration-Pile/commit/8862aeb6a281a35d0edfcec77efc47532b80c5c4) | 1,055 B |
+| 69 | Outlaw Loops - Modern Western Music | [f476eac](https://github.com/Bregermann/Asset-Consideration-Pile/commit/f476eaca9e33f9616ced42742b363e4dee21e462) | 1,748 B |
+| 70 | Screen Damage | [2efffde](https://github.com/Bregermann/Asset-Consideration-Pile/commit/2efffdec0b9d95c8953c63223f8f6d5ad45c65b9) | 1,724 B |
+| 71 | Trailer with Chassis Pack | [2c14678](https://github.com/Bregermann/Asset-Consideration-Pile/commit/2c14678aadfb68c8eed1b30d85302ad18fd99058) | 1,759 B |
 
 ## Separately licensed payload pushes
 
@@ -122,17 +134,11 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 - 56 **Rigged Construction Truck Vehicle**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Restore notes](MovingViolation/Packages/56.md)
 - 57 **Transport Helicopter**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Restore notes](MovingViolation/Packages/57.md)
 - 59 **Industrial Shipping Container Pack**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Restore notes](MovingViolation/Packages/59.md)
-- 61 **Easy Drone Controller**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 62 **Free Fire VFX - URP**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 63 **French Quarter Street Environment**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 64 **GamePad and Keyboard Input Sprites for TextMesh Pro**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 65 **Mall Environment**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 66 **Midnight Downtown**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 67 **Modern Guns: Handgun**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
+- 64 **GamePad and Keyboard Input Sprites for TextMesh Pro**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Restore notes](MovingViolation/Packages/64.md)
+- 65 **Mall Environment**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Restore notes](MovingViolation/Packages/65.md)
 - 68 **Modern Weapons Pack**. Unity’s signed-in Package Manager returned an ownership record for product 14233. The native download was requested on three occasions and returned AssetStoreOperationError on both observed retries. Neither verified cache held a complete matching archive, so no source import or Unity smoke could run. [Restore notes](MovingViolation/Packages/68.md)
-- 69 **Outlaw Loops - Modern Western Music**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 70 **Screen Damage**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
-- 71 **Trailer with Chassis Pack**. Run the one-package Unity smoke test, inspect dependencies and retain a separate copy if there are conflicts.
+- 69 **Outlaw Loops - Modern Western Music**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Restore notes](MovingViolation/Packages/69.md)
+- 71 **Trailer with Chassis Pack**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Restore notes](MovingViolation/Packages/71.md)
 
 ## Isolated compatibility results
 
@@ -143,7 +149,6 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 - 18 **Train Controller (Railroad System) ULTIMATE COLLECTION**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. Central integration was deferred because the archive ships project-scope paths or overlaps existing content. [Package evidence](MovingViolation/Packages/18.md)
 - 21 **Controllable Forklift Free**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 1 matched asset/dependency import errors. First import diagnostic: Start importing Assets/FreeForkLift/Prefabs/Main Camera.prefab using Guid(a806d004969b3054db4834b58b102064) (PrefabImporter)Problem detected while importing the Prefab file: 'Assets/FreeForkLift/Prefabs/Main Camera.prefab'.. [Package evidence](MovingViolation/Packages/21.md)
 - 24 **Weatherade: Snow and Rain System**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 1, refresh completed False, 175 C# error lines and 0 matched asset/dependency import errors. First compiler diagnostic: Assets\NOT_Lonely\FirstPersonController\NL_Footsteps.cs(15,20): error CS0619: 'PhysicMaterial' is obsolete: 'PhysicMaterial has been renamed to PhysicsMaterial. Please use PhysicsMaterial instead. (UnityUpgradable) -> PhysicsMaterial'. [Package evidence](MovingViolation/Packages/24.md)
-- 26 **Police Car & Helicopter**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Package evidence](MovingViolation/Packages/26.md)
 - 27 **Core-Collapse**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. Central integration was deferred because the archive ships project-scope paths or overlaps existing content. [Package evidence](MovingViolation/Packages/27.md)
 - 32 **Vista Personal - Procedural Terrain Generator with Biomes**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 1, refresh completed False, 9 C# error lines and 0 matched asset/dependency import errors. First compiler diagnostic: Assets\PinwheelStudio\Vista\Personal\Runtime\Scripts\Utilities\CoroutineHandle.cs(4,13): error CS0234: The type or namespace name 'EditorCoroutines' does not exist in the namespace 'Unity' (are you missing an assembly reference?). [Package evidence](MovingViolation/Packages/32.md)
 - 33 **EmbersStorm - Free Piper M350 Plane**. Archive has no scripts, native plug-ins or shader sources. Unity validation for this art or audio pack uses the live Pile after the scoped file move. The live editor failed the before/after check or timed out. Only the new vendor roots were moved back into isolation. [Package evidence](MovingViolation/Packages/33.md)
@@ -154,3 +159,5 @@ Intake status on 2026-11-19. The manifest has the requested 11 S and 60 A rows i
 - 42 **Modular Warehouse (Warehouse, Industrial Warehouse, Hangar, Factory, Warehouse)**. Tested the vendor-shipped URP subpackage in isolation from the HDRP and Built-in editions. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. The isolated archive remains available for a scoped merge. Existing path has different content: Assets/Hivemind.meta. [Package evidence](MovingViolation/Packages/42.md)
 - 49 **Complete Off-Road Racing (PC / Console) for URP**. Retested the original vendor Assets in a separate Unity project without the template sample scene, Settings assets or input asset. Isolated Unity 6000.3.6f1 URP smoke yielded exit 1, refresh completed False, 36 C# error lines and 0 matched asset/dependency import errors. First compiler diagnostic: Assets\Off_Road_Racing\Scripts\AI\Race_Manager.cs(259,51): error CS1501: No overload for method 'FindObjectsByType' takes 0 arguments. [Package evidence](MovingViolation/Packages/49.md)
 - 60 **Base Helicopter Controller**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 1, refresh completed False, 3 C# error lines and 0 matched asset/dependency import errors. First compiler diagnostic: Assets\Helicopter\Scripts\CheckpointController.cs(4,23): error CS0234: The type or namespace name 'Policy' does not exist in the namespace 'System.Security' (are you missing an assembly reference?). [Package evidence](MovingViolation/Packages/60.md)
+- 61 **Easy Drone Controller**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. The isolated archive remains available for a scoped merge. Existing path has different content: Assets/TextMesh Pro/Fonts.meta. [Package evidence](MovingViolation/Packages/61.md)
+- 63 **French Quarter Street Environment**. Isolated Unity 6000.3.6f1 URP smoke yielded exit 0, refresh completed True, 0 C# error lines and 0 matched asset/dependency import errors. The isolated archive remains available for a scoped merge. Existing path has different content: Assets/LeartesStudios.meta. [Package evidence](MovingViolation/Packages/63.md)
