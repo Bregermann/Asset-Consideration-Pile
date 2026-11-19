@@ -1,0 +1,519 @@
+path,bytes,meta_present,at_or_above_50_mib
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Asmdef_Sonity.PlayMaker.asmdef,467,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/Editor/SonityPlaySoundEditor.cs,6251,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/IMethodSelector.cs,276,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/IPlayAtTransform.cs,1368,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/IPlayAtVector3.cs,1360,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/IPlayMethod.cs,571,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/IPlayMusic.cs,989,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/IPlaySound.cs,1002,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/IPlayUISound.cs,944,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/MusicArguments.cs,735,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/PlayMethodDecorator.cs,683,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/PlayMethodMusic.cs,729,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/PlayMethodSound.cs,1095,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonityActionBase.cs,3544,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonityActionHelpers.cs,877,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonityActionTemplate.cs,668,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonityParameterContainer.cs,2274,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonityPlayActionBase.cs,10760,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonityPlayMakerHelper.cs,12076,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonitySoundManagerActionBase.cs,2868,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonitySoundParameterVariableTypeDefinitionAsset.asset,665,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SonitySoundParameterWrapper.cs,3524,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SoundArguments.cs,1512,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/Internal/SoundEventArgumentBuilder.cs,2852,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetContainsLoop.cs,974,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetFsmSoundEvent.cs,2825,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetLastPlayedAudioSource.cs,896,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetLastPlayedClipLength.cs,1130,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetLastPlayedClipTimeRatio.cs,946,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetLastPlayedClipTimeSeconds.cs,1124,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetMaxLength.cs,1006,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetSoundEventState.cs,992,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityGetTimePlayed.cs,920,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityLoadAudioData.cs,840,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicGetLastPlayedClipLength.cs,1167,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicGetLastPlayedClipTimeRatio.cs,976,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicGetLastPlayedClipTimeSeconds.cs,1145,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicGetSoundEventState.cs,1023,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicGetTimePlayed.cs,950,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicGetTransform.cs,919,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicPause.cs,905,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicPauseAll.cs,928,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicPlay.cs,1555,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicStop.cs,874,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicStopAll.cs,891,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicUnpause.cs,748,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityMusicUnpauseAll.cs,771,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityPause.cs,841,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityPauseAllAtOwner.cs,880,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityPauseEverything.cs,919,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityPauseEverywhere.cs,903,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityPlaySound.cs,1488,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityPlaySoundAtPositionTransform.cs,1041,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityPlaySoundAtPositionVector3.cs,1024,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityStop.cs,857,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityStopAllAtOwner.cs,829,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityStopAtPosition.cs,1032,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityStopEverwhere.cs,861,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityStopEverything.cs,870,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIGetLastPlayedClipLength.cs,1190,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIGetLastPlayedClipTimeRatio.cs,1014,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIGetLastPlayedClipTimeSeconds.cs,1192,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIGetSoundEventState.cs,1052,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIGetTimePlayed.cs,980,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIGetTransform.cs,970,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIPause.cs,896,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIPauseAll.cs,959,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIPlaySound.cs,1132,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIStop.cs,865,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIStopAllSounds.cs,882,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIUnpause.cs,739,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUIUnpauseAll.cs,762,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUnloadAudioData.cs,846,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUnpause.cs,685,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUnpauseAllAtOwner.cs,721,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUnpauseEverything.cs,755,True,False
+Assets/Plugins/Sonity/3rd Party Integrations/PlayMaker Sonity Actions/SonityUnpauseEverywhere.cs,748,True,False
+Assets/Plugins/Sonity/Documentation/Sonity Changelog.txt,19299,True,False
+Assets/Plugins/Sonity/Documentation/Sonity Getting Started Chinese.zip,8086869,True,False
+Assets/Plugins/Sonity/Documentation/Sonity Getting Started.txt,2771,True,False
+Assets/Plugins/Sonity/Documentation/Sonity Link To Documentation.zip,364977,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Ambience/Example_AMB_Radio_Accordion_Loop.wav,2005430,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Ambience/Example_AMB_Radio_Accordion_Loop_SC.asset,18739,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Ambience/Example_AMB_Radio_Accordion_Loop_SE.asset,7276,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Electric_Piano_Loop.wav,1152736,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Electric_Piano_Loop_SC.asset,18738,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Electric_Piano_Loop_SE.asset,7266,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_A_Tail_100_BPM_1_Bar.wav,2074336,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_A_Tail_SC.asset,18731,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_A_Tail_SE.asset,7579,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_B_Tail_80_BPM_1_Bar.wav,2592736,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_B_Tail_SC.asset,18731,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_B_Tail_SE.asset,7574,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_C_Tail_90_BPM_1_Bar.wav,2302210,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_C_Tail_SC.asset,18728,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_C_Tail_SE.asset,7587,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Playlist_SE.asset,7331,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Stem_A_Intensity_High_SC.asset,18738,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Stem_A_Intensity_High_Tail_95_BPM_1_Bar.wav,3638632,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Stem_A_Intensity_Low_SC.asset,18743,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Stem_A_Intensity_Low_Tail_95_BPM_1_Bar.wav,3638632,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/Music/Example_MUS_Stem_A_SE.asset,7395,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Bow_Shoot_01.wav,129970,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Bow_Shoot_02.wav,130384,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Bow_Shoot_03.wav,126160,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Bow_Shoot_04.wav,127912,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Bow_Shoot_SC.asset,18930,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Bow_Shoot_SE.asset,7247,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Loop_01.wav,561626,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Loop_SC.asset,18712,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Loop_SE.asset,7362,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Start_01.wav,81976,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Start_02.wav,85064,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Start_SC.asset,18788,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Start_SE.asset,7251,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Stop_01.wav,110776,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Stop_02.wav,110452,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Stop_SC.asset,18785,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Example_SFX_Drill_Stop_SE.asset,7249,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Close_01.wav,130594,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Close_02.wav,130594,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Close_03.wav,130594,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Close_04.wav,130594,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Close_SC.asset,18950,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Distant_01.wav,18476,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Distant_02.wav,18476,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Distant_03.wav,18476,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Distant_04.wav,18476,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Distant_SC.asset,18959,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Low_01.wav,8236,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Low_02.wav,8236,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Low_03.wav,8236,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Low_04.wav,8236,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Low_SC.asset,18948,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Mechanism_01.wav,22334,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Mechanism_02.wav,22334,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Mechanism_03.wav,22334,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Mechanism_04.wav,22334,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_Mechanism_SC.asset,18958,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Pistol/Example_SFX_Shot_Pistol_SE.asset,10551,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Close_01.wav,802720,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Close_02.wav,815782,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Close_03.wav,794392,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Close_04.wav,782326,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Close_SC.asset,18963,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Distant_01.wav,915376,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Distant_02.wav,915412,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Distant_03.wav,921910,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Distant_04.wav,909496,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Distant_SC.asset,18966,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Far_01.wav,984310,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Far_02.wav,981802,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Far_03.wav,984424,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Far_04.wav,1032154,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_Far_SC.asset,18957,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Indoor_SE.asset,7543,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Close_01.wav,1206856,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Close_02.wav,1232800,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Close_03.wav,1219696,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Close_04.wav,1230340,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Close_SC.asset,18964,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Distant_01.wav,1375894,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Distant_02.wav,1289068,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Distant_03.wav,1438270,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Distant_04.wav,1380352,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Distant_SC.asset,18969,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Far_01.wav,1431226,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Far_02.wav,1393834,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Far_03.wav,1456018,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Far_04.wav,1461796,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_Far_SC.asset,18960,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/Reflections/Example_SFX_Reflections_Outdoor_SE.asset,7548,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/SoundTags/Example_TAG_Indoor.asset,656,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Guns/SoundTags/Example_TAG_Outdoor.asset,656,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Friction_Loop_Hard_01.wav,523462,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Friction_Loop_Hard_SC.asset,18748,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Friction_Loop_SE.asset,129548,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Friction_Loop_Soft_01.wav,419758,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Friction_Loop_Soft_SC.asset,18748,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Hard_01.wav,80038,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Hard_02.wav,75848,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Hard_03.wav,93410,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Hard_04.wav,52486,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Hard_SC.asset,18981,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Medium_01.wav,51068,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Medium_02.wav,54524,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Medium_03.wav,55334,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Medium_04.wav,52186,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Medium_SC.asset,18983,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_SE.asset,8361,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Soft_01.wav,37132,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Soft_02.wav,33920,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Soft_03.wav,32534,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Soft_04.wav,34210,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Metal_Box/Example_SFX_Metal_Box_Impact_Soft_SC.asset,18979,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/SoundPhysicsConditions/Example_SFX_Metal_Box_Impact_SoundTags_SE.asset,13886,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/SoundPhysicsConditions/Example_SPC_Group.asset,2014,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/SoundPhysicsConditions/Example_SPC_Surface_Dirt.asset,1863,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/SoundPhysicsConditions/Example_SPC_Surface_Grass.asset,1863,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/SoundPhysicsConditions/Example_SPC_Surface_Water.asset,1867,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/SoundPhysicsConditions/Example_TAG_Dirt.asset,648,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/SoundPhysicsConditions/Example_TAG_Grass.asset,653,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/SoundPhysicsConditions/Example_TAG_Water.asset,648,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Dirt_01.wav,68272,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Dirt_02.wav,68272,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Dirt_03.wav,68272,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Dirt_SC.asset,18906,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Dirt_SE.asset,9256,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Grass_01.wav,73694,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Grass_02.wav,73694,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Grass_03.wav,73694,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Grass_SC.asset,18896,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Terrain/Example_SFX_Terrain_Impact_Grass_SE.asset,7940,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Exit_01.wav,239398,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Exit_02.wav,239398,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Exit_SC.asset,18816,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Exit_SE.asset,7385,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Friction_Hard_Loop_01.wav,874754,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Friction_Hard_Loop_SC.asset,18783,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Friction_SE.asset,630783,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Friction_Soft_Loop_01.wav,1481134,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Friction_Soft_Loop_SC.asset,18781,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Impact_01.wav,218456,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Impact_02.wav,209920,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Impact_SC.asset,18825,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/Physics/Water/Example_SFX_Water_Impact_SE.asset,7428,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/SteamAudio/Example_SFX_Talking_Numbers_Loop_01.wav,3930872,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/SteamAudio/Example_SFX_Talking_Numbers_Loop_SC.asset,18738,True,False
+Assets/Plugins/Sonity/Examples/Audio Assets/SFX/SteamAudio/Example_SFX_Talking_Numbers_Loop_SE.asset,7277,True,False
+Assets/Plugins/Sonity/Examples/Audio Mixer/Example_AudioMixer.mixer,8113,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 1 Play With Component (SoundTrigger).unity,26297,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 10 SteamAudio (Occlusion and Reflections) Zip Archive.zip,84989,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 11 PlayMaker.unity,41149,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 2 Play With Code.unity,22292,True,False
+"Assets/Plugins/Sonity/Examples/Example Scenes/Example 3.1 SoundPhysics Basic (Impact, Intensity Crossfade).unity",54836,True,False
+"Assets/Plugins/Sonity/Examples/Example Scenes/Example 3.2 SoundPhysics Intermediate (Friction, Exit, OnTrigger).unity",88190,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 3.3 SoundPhysics Advanced A SoundPhysicsConditions.unity,86929,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 3.4 SoundPhysics Advanced B SoundTags.unity,86018,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 4.1 SoundParameter A (Update Mode Once).unity,22230,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 4.2 SoundParameter B (Update Mode Continuous).unity,21380,True,False
+"Assets/Plugins/Sonity/Examples/Example Scenes/Example 5 Guns (Distance Crossfade, SoundTag, Filters, Distortion).unity",40712,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 6 Music Playlist.unity,22743,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 7 Music Stems.unity,22214,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 8 SoundPicker.unity,23821,True,False
+Assets/Plugins/Sonity/Examples/Example Scenes/Example 9 AudioListenerDistance Override.unity,30405,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_SoundPreset.asset,3419,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_AMB_SC.asset,18640,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_AMB_SE.asset,7111,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_Default_SFX_SC.asset,18654,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_Default_SFX_SE.asset,7128,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_MUS_SC.asset,18635,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_MUS_SE.asset,7119,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_SFX_SC.asset,18640,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_SFX_SE.asset,7112,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_UI_SC.asset,18635,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_UI_SE.asset,7111,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_VO_SC.asset,18638,True,False
+Assets/Plugins/Sonity/Examples/Example SoundPreset/Example_Template_VO_SE.asset,7110,True,False
+Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleMaterial_BRP_Default.mat,2334,True,False
+Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleMaterial_BRP_Grey.mat,2747,True,False
+Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleMaterial_BRP_Red.mat,3774,True,False
+Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleMaterial_Shared_Water.mat,3973,True,False
+Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleMaterial_URP_Default.mat,3991,True,False
+Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleMaterial_URP_Grey.mat,4024,True,False
+Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleMaterial_URP_Red.mat,3949,True,False
+Assets/Plugins/Sonity/Examples/Internal/Materials/ExampleShaderTransparentUnlit.shader,4693,True,False
+Assets/Plugins/Sonity/Examples/Internal/PhysicMaterials/ExamplePhysicMaterial_Roll.physicMaterial,359,True,False
+Assets/Plugins/Sonity/Examples/Internal/PhysicMaterials/ExamplePhysicMaterial_Slide.physicMaterial,356,True,False
+Assets/Plugins/Sonity/Examples/Internal/PhysicMaterials/ExamplePhysicMaterial_Stop.physicMaterial,359,True,False
+Assets/Plugins/Sonity/Examples/Internal/PhysicMaterials/ExamplePhysicMaterial_Terrain.physicMaterial,362,True,False
+Assets/Plugins/Sonity/Examples/Internal/Prefabs/ExampleLegacyMaterialManager.prefab,2099,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/Asmdef_SonityExample.asmdef,564,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/Editor/ExampleLegacyBoxColliderSize.cs,1000,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/Editor/ExampleLegacyMaterialComponent.cs,6709,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/Editor/ExampleLegacyMaterialHelpers.cs,4016,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/Editor/ExampleLegacyMaterialManager.cs,2118,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleColliderSoundTag.cs,1463,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleFlyingCamera.cs,4049,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleFollowCamera.cs,891,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleHelperGuiText.cs,900,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleMoveObjectSine.cs,856,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleMusicStem.cs,1867,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleMusicSwitcher.cs,1600,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleParameterContinuous.cs,1706,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleParameterOnce.cs,1769,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExamplePlay.cs,1173,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleRandomDisable.cs,793,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleShot.cs,696,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleSoundPicker.cs,1254,True,False
+Assets/Plugins/Sonity/Examples/Internal/Scripts/ExampleWaterPhysics.cs,2549,True,False
+Assets/Plugins/Sonity/Examples/Internal/SteamAudio/Example_SteamAudioMaterial_Reflective.asset,621,True,False
+Assets/Plugins/Sonity/Examples/Internal/Terrain/ExampleTerrainData.asset,41840,True,False
+Assets/Plugins/Sonity/Examples/Internal/Terrain/ExampleTerrainLayer00Grass.terrainlayer,765,True,False
+Assets/Plugins/Sonity/Examples/Internal/Terrain/ExampleTerrainLayer00GrassTexture.png,159,True,False
+Assets/Plugins/Sonity/Examples/Internal/Terrain/ExampleTerrainLayer01Dirt.terrainlayer,764,True,False
+Assets/Plugins/Sonity/Examples/Internal/Terrain/ExampleTerrainLayer01DirtTexture.png,161,True,False
+Assets/Plugins/Sonity/Examples/Internal/Terrain/Terrain Unity BRP Legacy Support Zip Archive (Extract if Pink Terrain).zip,12829,True,False
+Assets/Plugins/Sonity/Prefabs/SoundManager.prefab,3503,True,False
+Assets/Plugins/Sonity/Scripts/Internal/ActiveList.cs,3571,True,False
+Assets/Plugins/Sonity/Scripts/Internal/AngleAroundAxis.cs,1228,True,False
+Assets/Plugins/Sonity/Scripts/Internal/ApplicationQuitting.cs,1005,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Asmdef_Sonity.Internal.Runtime.asmdef,524,True,False
+Assets/Plugins/Sonity/Scripts/Internal/AudioListenerDistanceBase.cs,259,True,False
+Assets/Plugins/Sonity/Scripts/Internal/AxisLock.cs,609,True,False
+Assets/Plugins/Sonity/Scripts/Internal/AxisToLock.cs,195,True,False
+Assets/Plugins/Sonity/Scripts/Internal/BeatLength.cs,1189,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/Asmdef_Sonity.Internal.Editor.asmdef,577,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorBeatLength.cs,1291,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorColorProSkin.cs,2727,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorDebugDrawInSceneView.cs,7955,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorDragAndDropArea.cs,6192,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorGuiAssetTopToolbarButtons.cs,16325,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorGuiFunction.cs,19549,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorPlayModeStateChanged.cs,814,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorPreviewControls.cs,314,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorPreviewSound.cs,21426,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorPreviewSoundData.cs,529,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorPreviewVoice.cs,17699,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorScriptingDefineSymbols.cs,9935,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorShortcutsPreview.cs,3716,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorSoundContainerCurveType.cs,459,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorSoundContainerCurveValue.cs,282,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorSoundEventModifierMenu.cs,20167,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorSoundTriggerTypeMenu.cs,14642,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextAssetGuid.cs,960,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextModifier.cs,9761,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextPreview.cs,2772,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundContainer.cs,54457,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundDataGroup.cs,1081,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundEvent.cs,33747,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundManager.cs,66275,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundMix.cs,1208,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundPhysics.cs,5107,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundPhysicsCondition.cs,8452,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundPicker.cs,1172,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundPolyGroup.cs,1484,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundPreset.cs,5282,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundTag.cs,1126,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundTrigger.cs,5907,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSoundVolumeGroup.cs,3879,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTextSteamAudio.cs,20565,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorToolsBase.cs,15772,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorToolsLegacy.cs,5066,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/EditorTrial.cs,3300,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundContainerEditorBase.cs,187962,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundContainerEditorCurveDraw.cs,30848,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundContainerEditorFindAssets.cs,11010,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundContainerEditorPreview.cs,16310,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundDataGroupEditorBase.cs,23045,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorBase.cs,146153,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorFindAssets.cs,10767,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorIntensityDebugDraw.cs,12447,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorPreview.cs,19271,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorTimeline.cs,7322,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorTimelineData.cs,2820,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorTimelineDraw.cs,16763,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorTimelineInteraction.cs,10279,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundEventEditorTimelineRects.cs,5124,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundManagerEditorBase.cs,126269,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundMixEditorBase.cs,23895,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundPhysicsConditionEditorBase.cs,32398,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundPhysicsEditorBase.cs,33528,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundPickerEditorBase.cs,45688,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundPolyGroupEditorBase.cs,4487,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundPresetEditorBase.cs,18261,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundPresetFind.cs,828,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundTagEditorBase.cs,3744,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundTriggerEditorBase.cs,51171,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundTriggerType.cs,577,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Editor/SoundVolumeGroupEditorBase.cs,9252,True,False
+Assets/Plugins/Sonity/Scripts/Internal/EditorAssetGuid.cs,1146,True,False
+Assets/Plugins/Sonity/Scripts/Internal/EditorColor.cs,14943,True,False
+Assets/Plugins/Sonity/Scripts/Internal/EditorDebugDrawInGameView.cs,8115,True,False
+Assets/Plugins/Sonity/Scripts/Internal/IndexedActiveList.cs,3362,True,False
+Assets/Plugins/Sonity/Scripts/Internal/ListUtilities.cs,965,True,False
+Assets/Plugins/Sonity/Scripts/Internal/LogLinExp.cs,889,True,False
+Assets/Plugins/Sonity/Scripts/Internal/NameOf.cs,1944,True,False
+Assets/Plugins/Sonity/Scripts/Internal/NextVoice.cs,1229,True,False
+Assets/Plugins/Sonity/Scripts/Internal/OwnerPlayType.cs,208,True,False
+Assets/Plugins/Sonity/Scripts/Internal/PhysicsDimension.cs,205,True,False
+Assets/Plugins/Sonity/Scripts/Internal/PhysicsPlayOn.cs,236,True,False
+Assets/Plugins/Sonity/Scripts/Internal/PitchScale.cs,694,True,False
+Assets/Plugins/Sonity/Scripts/Internal/PlayOrder.cs,211,True,False
+Assets/Plugins/Sonity/Scripts/Internal/PolyphonyMode.cs,214,True,False
+Assets/Plugins/Sonity/Scripts/Internal/ShouldDebug.cs,663,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SonityAssetPostprocessorImporter.cs,2740,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SonityEditorPrefs.cs,1011,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SonityGuid.cs,4732,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SonityGuidCompare.cs,9243,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SonityVersion.cs,326,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundContainerBase.cs,342,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundContainerCopy.cs,24930,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundContainerInstance.cs,40611,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundContainerInternals.cs,36247,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundContainerInternalsDataSteamAudio.cs,8169,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundDataGroupBase.cs,342,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundDataGroupInternals.cs,5286,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventBase.cs,3859,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventCopy.cs,9101,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventInstance.cs,65046,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventInstanceVirtualVoice.cs,1255,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventInternals.cs,22385,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventModifier.cs,9732,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventPlayType.cs,235,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventPlayTypeInstance.cs,7304,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventState.cs,233,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventTimelineData.cs,597,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundEventTriggerOnType.cs,248,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerBase.cs,11513,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerInternals.cs,94383,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerInternalsDebug.cs,19982,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerInternalsEditorTools.cs,506,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerInternalsSettings.cs,8961,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerInternalsStatistics.cs,1378,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerStatisticsSorting.cs,293,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerVoiceEffectPool.cs,2770,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundManagerVoicePool.cs,9524,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundMixBase.cs,324,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundMixInternals.cs,5018,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundParameter.cs,28552,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundParameterInternals.cs,614,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundParameterType.cs,654,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPhysicsBase.cs,521,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPhysicsComponentType.cs,230,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPhysicsConditionBase.cs,365,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPhysicsConditionInternals.cs,7453,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPhysicsInternals.cs,43178,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPhysicsPart.cs,744,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPickerBase.cs,290,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPickerInternals.cs,462,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPickerPart.cs,4049,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPolyGroupBase.cs,307,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPolyGroupInternals.cs,1815,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPresetBase.cs,396,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPresetGroup.cs,4160,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundPresetInternals.cs,470,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTagBase.cs,324,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTagGroup.cs,488,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTagInternals.cs,1767,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTagMode.cs,197,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTimeScale.cs,2481,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTimeScaleMode.cs,284,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTriggerAction.cs,277,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTriggerBase.cs,8394,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTriggerInternals.cs,5618,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTriggerOnType.cs,240,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTriggerPart.cs,4850,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundTriggerTodo.cs,2143,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundVolumeGroupBase.cs,348,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SoundVolumeGroupInternals.cs,4033,True,False
+Assets/Plugins/Sonity/Scripts/Internal/SpectrumDataFrom.cs,197,True,False
+Assets/Plugins/Sonity/Scripts/Internal/StringOperation.cs,784,True,False
+Assets/Plugins/Sonity/Scripts/Internal/TransformID.cs,1245,True,False
+Assets/Plugins/Sonity/Scripts/Internal/TriggerOnType.cs,238,True,False
+Assets/Plugins/Sonity/Scripts/Internal/Voice.cs,24089,True,False
+Assets/Plugins/Sonity/Scripts/Internal/VoiceEffect.cs,8744,True,False
+Assets/Plugins/Sonity/Scripts/Internal/VoiceFade.cs,3024,True,False
+Assets/Plugins/Sonity/Scripts/Internal/VoiceFadeState.cs,238,True,False
+Assets/Plugins/Sonity/Scripts/Internal/VoiceHolder.cs,947,True,False
+Assets/Plugins/Sonity/Scripts/Internal/VoiceParameterInstance.cs,18614,True,False
+Assets/Plugins/Sonity/Scripts/Internal/VoiceState.cs,209,True,False
+Assets/Plugins/Sonity/Scripts/Internal/VolumeScale.cs,2530,True,False
+Assets/Plugins/Sonity/Scripts/Internal/WhichToPlay.cs,196,True,False
+Assets/Plugins/Sonity/Scripts/Public/Asmdef_Sonity.Public.Runtime.asmdef,422,True,False
+Assets/Plugins/Sonity/Scripts/Public/Components/AudioListenerDistance.cs,1144,True,False
+Assets/Plugins/Sonity/Scripts/Public/Components/SoundManager.cs,87601,True,False
+Assets/Plugins/Sonity/Scripts/Public/Components/SoundPhysics.cs,2378,True,False
+Assets/Plugins/Sonity/Scripts/Public/Components/SoundPhysics2D.cs,2421,True,False
+Assets/Plugins/Sonity/Scripts/Public/Components/SoundPhysics2DNoFriction.cs,2095,True,False
+Assets/Plugins/Sonity/Scripts/Public/Components/SoundPhysicsNoFriction.cs,2064,True,False
+Assets/Plugins/Sonity/Scripts/Public/Components/SoundTrigger.cs,21045,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Asmdef_Sonity.Public.Editor.asmdef,545,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/EditorAssetCreateMenu.cs,30881,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/EditorSoundEventPreviewDrawer.cs,4227,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/EditorTool/Asmdef_Sonity.Public.EditorTools.asmdef,433,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/EditorTool/EditorToolReferenceFinder.cs,72911,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/EditorTool/EditorToolSelectionHistory.cs,6017,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/EditorTool/EditorToolSelectSameType.cs,5438,True,False
+"Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/Gizmos set Texture Type to Default, Alpha is Transparency, Filter Mode to Trilinear.txt",0,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundContainer Icon.png,6769,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundDataGroup Icon.png,4642,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundEvent Icon.png,6882,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundMix Icon.png,5521,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundPhysicsCondition Icon.png,5962,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundPolyGroup Icon.png,4473,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundPreset Icon.png,6222,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundTag Icon.png,5419,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/Gizmos/SoundVolumeGroup Icon.png,5668,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundContainerEditor.cs,324,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundDataGroupEditor.cs,323,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundEventEditor.cs,311,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundManagerEditor.cs,317,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundMixEditor.cs,305,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundPhysics2DEditor.cs,321,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundPhysics2DNoFrictionEditor.cs,341,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundPhysicsConditionEditor.cs,344,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundPhysicsEditor.cs,317,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundPhysicsNoFrictionEditor.cs,337,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundPickerEditor.cs,292,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundPolyGroupEditor.cs,323,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundPresetEditor.cs,314,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundTagEditor.cs,305,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundTriggerEditor.cs,317,True,False
+Assets/Plugins/Sonity/Scripts/Public/Editor/SoundVolumeGroupEditor.cs,329,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundContainer.cs,728,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundDataGroup.cs,1716,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundEvent.cs,85329,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundMix.cs,1226,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundPhysicsCondition.cs,1143,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundPolyGroup.cs,1321,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundPreset.cs,1337,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundTag.cs,1313,True,False
+Assets/Plugins/Sonity/Scripts/Public/ScriptableObjects/SoundVolumeGroup.cs,1404,True,False
+Assets/Plugins/Sonity/Scripts/Public/Serializable/SoundPicker.cs,27665,True,False
+Assets/Plugins/Sonity/Templates/Asmdef_SonityTemplate.asmdef,465,True,False
+Assets/Plugins/Sonity/Templates/TemplateSoundMusicManager.cs,4118,True,False
+Assets/Plugins/Sonity/Templates/TemplateSoundPlayUI.cs,2392,True,False
+Assets/Plugins/Sonity/Templates/TemplateSoundVolumeManager.cs,4978,True,False
