@@ -20,6 +20,8 @@ For each requested update, refresh this catalogue and inventory, then commit and
 
 The S/A intake adds a searchable audio index, exact Unity Store sources, and Unity compatibility and restore evidence. Search the clip and path columns for an action, material, vehicle or setting, then use the package manifest to check availability. [Additional audio assets](MovingViolation/AudioAssets.csv) and [71-package manifest](MovingViolation_AssetIntake_Manifest.csv).
 
+The addendum adds Sonity and seven Undergrounds listings with archive evidence, source paths and Unity test results. [Sonity and Undergrounds inventory](Sonity_Undergrounds_Intake_Manifest.csv).
+
 ## Local files over 99 MB
 
 None at this inventory snapshot.

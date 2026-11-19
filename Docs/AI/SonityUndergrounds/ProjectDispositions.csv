@@ -1,0 +1,64 @@
+project,asset_store_id,asset,disposition,scope,explanation
+Moving Violation,317175,Subway,RECOMMENDED FOR PRODUCTION,Only the selected vent is installed. Other recommendations are candidates.,ProjectFit.md
+Moving Violation,311075,Shelter,DEPOT ONLY,Only the selected vent is installed. Other recommendations are candidates.,ProjectFit.md
+Moving Violation,317481,Bunker,RECOMMENDED FOR PRODUCTION,Only the selected vent is installed. Other recommendations are candidates.,ProjectFit.md
+Moving Violation,318615,Underpass,DEPOT ONLY,Only the selected vent is installed. Other recommendations are candidates.,ProjectFit.md
+Moving Violation,304609,Off-road,DEPOT ONLY,Only the selected vent is installed. Other recommendations are candidates.,ProjectFit.md
+Moving Violation,143712,Industrial props,DEDUPLICATED INTO ANOTHER PACK,"Only the selected vent is installed. Other recommendations are candidates. Select identical content from the chosen environment, retaining one source.",ProjectFit.md
+Moving Violation,175045,Pipes,RECOMMENDED FOR PRODUCTION,Only the selected vent is installed. Other recommendations are candidates.,ProjectFit.md
+Interstate: Hauler,317175,Subway,DEPOT ONLY,Host inspection only. Verify US signage and route geography in a disposable copy.,ProjectFit.md
+Interstate: Hauler,311075,Shelter,RECOMMENDED FOR PRODUCTION,Host inspection only. Verify US signage and route geography in a disposable copy.,ProjectFit.md
+Interstate: Hauler,317481,Bunker,DEPOT ONLY,Host inspection only. Verify US signage and route geography in a disposable copy.,ProjectFit.md
+Interstate: Hauler,318615,Underpass,DEPOT ONLY,Host inspection only. Verify US signage and route geography in a disposable copy.,ProjectFit.md
+Interstate: Hauler,304609,Off-road,RECOMMENDED FOR PRODUCTION,Host inspection only. Verify US signage and route geography in a disposable copy. Art only. Production driving must use the host vehicle controller.,ProjectFit.md
+Interstate: Hauler,143712,Industrial props,RECOMMENDED FOR PRODUCTION,Host inspection only. Verify US signage and route geography in a disposable copy.,ProjectFit.md
+Interstate: Hauler,175045,Pipes,RECOMMENDED FOR PRODUCTION,Host inspection only. Verify US signage and route geography in a disposable copy.,ProjectFit.md
+Truck Taxi,317175,Subway,DEPOT ONLY,Host scenes and audio controllers inspected inside the Interstate checkout.,ProjectFit.md
+Truck Taxi,311075,Shelter,DEPOT ONLY,Host scenes and audio controllers inspected inside the Interstate checkout.,ProjectFit.md
+Truck Taxi,317481,Bunker,DEPOT ONLY,Host scenes and audio controllers inspected inside the Interstate checkout.,ProjectFit.md
+Truck Taxi,318615,Underpass,RECOMMENDED FOR PRODUCTION,Host scenes and audio controllers inspected inside the Interstate checkout.,ProjectFit.md
+Truck Taxi,304609,Off-road,RECOMMENDED FOR PRODUCTION,Host scenes and audio controllers inspected inside the Interstate checkout. Art only. Production driving must use the host vehicle controller.,ProjectFit.md
+Truck Taxi,143712,Industrial props,DEPOT ONLY,Host scenes and audio controllers inspected inside the Interstate checkout.,ProjectFit.md
+Truck Taxi,175045,Pipes,DEPOT ONLY,Host scenes and audio controllers inspected inside the Interstate checkout.,ProjectFit.md
+Truck Sports: Party!,317175,Subway,NOT SUITABLE,Host scene and SportsMatchAudioAnchor inspected inside the Interstate checkout.,ProjectFit.md
+Truck Sports: Party!,311075,Shelter,NOT SUITABLE,Host scene and SportsMatchAudioAnchor inspected inside the Interstate checkout.,ProjectFit.md
+Truck Sports: Party!,317481,Bunker,NOT SUITABLE,Host scene and SportsMatchAudioAnchor inspected inside the Interstate checkout.,ProjectFit.md
+Truck Sports: Party!,318615,Underpass,DEPOT ONLY,Host scene and SportsMatchAudioAnchor inspected inside the Interstate checkout.,ProjectFit.md
+Truck Sports: Party!,304609,Off-road,RECOMMENDED FOR PRODUCTION,Host scene and SportsMatchAudioAnchor inspected inside the Interstate checkout. Art only. Production driving must use the host vehicle controller.,ProjectFit.md
+Truck Sports: Party!,143712,Industrial props,DEPOT ONLY,Host scene and SportsMatchAudioAnchor inspected inside the Interstate checkout.,ProjectFit.md
+Truck Sports: Party!,175045,Pipes,NOT SUITABLE,Host scene and SportsMatchAudioAnchor inspected inside the Interstate checkout.,ProjectFit.md
+Cartastrophe,317175,Subway,DEPOT ONLY,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Cartastrophe,311075,Shelter,RECOMMENDED FOR PRODUCTION,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Cartastrophe,317481,Bunker,DEPOT ONLY,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Cartastrophe,318615,Underpass,DEPOT ONLY,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Cartastrophe,304609,Off-road,RECOMMENDED FOR PRODUCTION,Design fit only. No exact Unity checkout confirmed. Art only. Production driving must use the host vehicle controller.,ProjectFit.md
+Cartastrophe,143712,Industrial props,RECOMMENDED FOR PRODUCTION,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Cartastrophe,175045,Pipes,DEPOT ONLY,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Rest Stop Racket,317175,Subway,DEPOT ONLY,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Rest Stop Racket,311075,Shelter,RECOMMENDED FOR PRODUCTION,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Rest Stop Racket,317481,Bunker,DEPOT ONLY,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Rest Stop Racket,318615,Underpass,DEPOT ONLY,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Rest Stop Racket,304609,Off-road,DEPOT ONLY,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Rest Stop Racket,143712,Industrial props,RECOMMENDED FOR PRODUCTION,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Rest Stop Racket,175045,Pipes,RECOMMENDED FOR PRODUCTION,Design fit only. No exact Unity checkout confirmed.,ProjectFit.md
+Rowan of Bramblebrook,317175,Subway,NOT SUITABLE,Host inspection only. The modern visual style is inconsistent with this setting.,ProjectFit.md
+Rowan of Bramblebrook,311075,Shelter,NOT SUITABLE,Host inspection only. The modern visual style is inconsistent with this setting.,ProjectFit.md
+Rowan of Bramblebrook,317481,Bunker,NOT SUITABLE,Host inspection only. The modern visual style is inconsistent with this setting.,ProjectFit.md
+Rowan of Bramblebrook,318615,Underpass,NOT SUITABLE,Host inspection only. The modern visual style is inconsistent with this setting.,ProjectFit.md
+Rowan of Bramblebrook,304609,Off-road,NOT SUITABLE,Host inspection only. The modern visual style is inconsistent with this setting.,ProjectFit.md
+Rowan of Bramblebrook,143712,Industrial props,NOT SUITABLE,Host inspection only. The modern visual style is inconsistent with this setting.,ProjectFit.md
+Rowan of Bramblebrook,175045,Pipes,NOT SUITABLE,Host inspection only. The modern visual style is inconsistent with this setting.,ProjectFit.md
+Dead Air / horror,317175,Subway,RECOMMENDED FOR PRODUCTION,Dead Air scene and audio directors inspected inside the Interstate checkout.,ProjectFit.md
+Dead Air / horror,311075,Shelter,RECOMMENDED FOR PRODUCTION,Dead Air scene and audio directors inspected inside the Interstate checkout.,ProjectFit.md
+Dead Air / horror,317481,Bunker,RECOMMENDED FOR PRODUCTION,Dead Air scene and audio directors inspected inside the Interstate checkout.,ProjectFit.md
+Dead Air / horror,318615,Underpass,DEPOT ONLY,Dead Air scene and audio directors inspected inside the Interstate checkout.,ProjectFit.md
+Dead Air / horror,304609,Off-road,DEPOT ONLY,Dead Air scene and audio directors inspected inside the Interstate checkout.,ProjectFit.md
+Dead Air / horror,143712,Industrial props,DEDUPLICATED INTO ANOTHER PACK,"Dead Air scene and audio directors inspected inside the Interstate checkout. Select identical content from the chosen environment, retaining one source.",ProjectFit.md
+Dead Air / horror,175045,Pipes,DEDUPLICATED INTO ANOTHER PACK,"Dead Air scene and audio directors inspected inside the Interstate checkout. Select identical content from the chosen environment, retaining one source.",ProjectFit.md
+Lifeline Run,317175,Subway,DEPOT ONLY,"Host scene, Port Industrial district and test audio receiver inspected.",ProjectFit.md
+Lifeline Run,311075,Shelter,RECOMMENDED FOR PRODUCTION,"Host scene, Port Industrial district and test audio receiver inspected.",ProjectFit.md
+Lifeline Run,317481,Bunker,DEPOT ONLY,"Host scene, Port Industrial district and test audio receiver inspected.",ProjectFit.md
+Lifeline Run,318615,Underpass,RECOMMENDED FOR PRODUCTION,"Host scene, Port Industrial district and test audio receiver inspected.",ProjectFit.md
+Lifeline Run,304609,Off-road,DEPOT ONLY,"Host scene, Port Industrial district and test audio receiver inspected.",ProjectFit.md
+Lifeline Run,143712,Industrial props,RECOMMENDED FOR PRODUCTION,"Host scene, Port Industrial district and test audio receiver inspected.",ProjectFit.md
+Lifeline Run,175045,Pipes,DEPOT ONLY,"Host scene, Port Industrial district and test audio receiver inspected.",ProjectFit.md
