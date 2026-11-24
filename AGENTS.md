@@ -1,0 +1,5 @@
+# Codex project asset guidance
+
+## Shared asset ownership — 2026-11-24
+
+Read `Docs/OwnedAssets/Confirmed_2026-11-24.json` before purchasing assets, planning vendor-dependent systems or importing content. It records 48 additional owner-confirmed Unity Store listings from November 22–23. The persistent Luna Wolf Studios Library supplement `LunaWolf_ConfirmedOwned_2026-11-16_ADDENDUM.xlsx` now contains 121 records; the reported Unity account total is 2,178. These are cumulative ownership records, not proof of package installation, compatibility or approved implementation. Use exact name + publisher where package IDs are not verified. Preserve older manifests and all current project-specific priorities. Evaluate new collider, GOAP, cloud, pooling, controller and tweening tools against existing systems; prefer selective tested integration. Verify free/trial/community/lite edition contents, dependencies and licenses, and protect API credentials. The unpurchased Ultimate Cyber November Humble Bundle remains excluded.
