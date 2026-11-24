@@ -4,7 +4,7 @@
 
 | Check | Result |
 | --- | --- |
-| Acquisition | Entitlement unverified. Unity CLI reported signed out. The default Asset Store cache and configured Rowan owned-package cache contained no matching archive. |
+| Acquisition | Studio owner confirmed ownership of Asset Store ID 314245. Download and local import are pending authenticated Unity access or the original archive. Unity CLI reported signed out and the checked local caches contained no matching archive. |
 | Dependencies | The publisher requires Unity Editor Coroutines and internet access. ACP already declares and locks `com.unity.editorcoroutines` 1.1.0 from the Unity Registry. |
 | Unity 6 and URP | The listing identifies Unity 6000.2.13 as the original editor and advertises URP support. Import and compile in ACP and Rowan remain untested. |
 | Service access | The publisher advertises an internet-backed Editor workflow without a separate sign-up or user API key. It identifies ElevenLabs as the Multi model backend. Advertised limits are 2,500 characters per request and 150,000 per month. Quota access, provider availability, and a supported programmatic or batch interface remain unverified. |
