@@ -24,6 +24,8 @@ The addendum adds Sonity and seven Undergrounds listings with archive evidence, 
 
 ## Cinematics and marketing production
 
+**S-tier voice production.** [DeepVoice Pro – Text to Voice](DeepVoicePro.md) is cataloged for Rowan of Bramblebrook and other Luna Wolf Studios projects. Acquisition and commercial output rights are pending verification.
+
 Use the [cinematic production catalog](CinematicProduction.md) to choose a capture stack, find licensed source archives and check Unity 6 URP validation before importing into a Luna Wolf Studios project.
 
 ## Local files over 99 MB
