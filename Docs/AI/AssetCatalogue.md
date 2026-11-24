@@ -22,6 +22,10 @@ The S/A intake adds a searchable audio index, exact Unity Store sources, and Uni
 
 The addendum adds Sonity and seven Undergrounds listings with archive evidence, source paths and Unity test results. [Sonity and Undergrounds inventory](Sonity_Undergrounds_Intake_Manifest.csv).
 
+## Cinematics and marketing production
+
+Use the [cinematic production catalog](CinematicProduction.md) to choose a capture stack, find licensed source archives and check Unity 6 URP validation before importing into a Luna Wolf Studios project.
+
 ## Local files over 99 MB
 
 None at this inventory snapshot.
