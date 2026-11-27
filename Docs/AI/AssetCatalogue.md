@@ -35,3 +35,7 @@ None at this inventory snapshot.
 ## Polyquest environment and platforming assets
 
 [Polyquest Worlds Full Pack Vol. 1](Polyquest/README.md) records the studio-owned POLYBOX package, searchable source and prefab inventories, canyon traversal showcase, capture evidence and selective transfer for Rowan of Bramblebrook.
+
+## Mall Sweet Mall
+
+The [Mall Sweet Mall installation report](MallSweetMall/MALL_SWEET_MALL_INSTALLATION_REPORT.md) records the 1998 retail and arcade collection. Start with the [availability manifest](MallSweetMall/MALL_SWEET_MALL_ACP_ASSET_AVAILABILITY.csv) and [TidyCore transfer handoff](MallSweetMall/MALL_SWEET_MALL_READY_FOR_TIDYCORE.md).
