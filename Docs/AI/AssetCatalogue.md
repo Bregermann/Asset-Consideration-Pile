@@ -31,3 +31,7 @@ Use the [cinematic production catalog](CinematicProduction.md) to choose a captu
 ## Local files over 99 MB
 
 None at this inventory snapshot.
+
+## Polyquest environment and platforming assets
+
+[Polyquest Worlds Full Pack Vol. 1](Polyquest/README.md) records the studio-owned POLYBOX package, searchable source and prefab inventories, canyon traversal showcase, capture evidence and selective transfer for Rowan of Bramblebrook.

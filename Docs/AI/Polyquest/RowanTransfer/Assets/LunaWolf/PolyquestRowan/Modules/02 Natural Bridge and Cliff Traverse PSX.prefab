@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2573079972902842952
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 690645455206182015, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_Name
+      value: 02 Natural Bridge and Cliff Traverse PSX
+      objectReference: {fileID: 0}
+    - target: {fileID: 1104677633946257487, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: c6aabc9c0504af54ca46fc5760991379, type: 2}
+    - target: {fileID: 5349707001706433602, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: 04d672d5ef5572347aaa658ee9502525, type: 2}
+    - target: {fileID: 5383916232673073779, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: cd21d8a13c1a6a048811ccdb1682f718, type: 2}
+    - target: {fileID: 7447264651059792577, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: cd21d8a13c1a6a048811ccdb1682f718, type: 2}
+    - target: {fileID: 7615283343174898547, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: c6aabc9c0504af54ca46fc5760991379, type: 2}
+    - target: {fileID: 7615283343174952015, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: c6aabc9c0504af54ca46fc5760991379, type: 2}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8913827349231295509, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6cbd7af86271c442b7d3967ec59a663, type: 3}

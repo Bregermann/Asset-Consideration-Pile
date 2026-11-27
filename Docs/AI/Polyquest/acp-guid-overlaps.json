@@ -1,0 +1,27 @@
+{
+  "Assets/POLYBOX/Polyquest_Worlds_Full_Pack_Vol.1/textures/Flare50mm.psd": {
+    "existing": "Assets/WeatherMaker/Prefab/Textures/Flare/WeatherMakerFlare50mm.psd",
+    "identical": false,
+    "guid": "23a02ac18d11c9ffa0009c58a8ad6659"
+  },
+  "Assets/POLYBOX/Polyquest_Worlds_Full_Pack_Vol.1/textures/FlareStar.psd": {
+    "existing": "Assets/WeatherMaker/Prefab/Textures/Flare/WeatherMakerFlareStar.psd",
+    "identical": true,
+    "guid": "51dc82ef9d11c594d000e7c9e39e7c39"
+  },
+  "Assets/POLYBOX/Polyquest_Worlds_Full_Pack_Vol.1/materials/flares_custom/50mmZoom_01.flare": {
+    "existing": "Assets/WeatherMaker/Prefab/Flares/WeatherMakerFlare50mmZoom.flare",
+    "identical": false,
+    "guid": "54fbbf098d116effa00081aba8ad6659"
+  },
+  "Assets/POLYBOX/Polyquest_Worlds_Full_Pack_Vol.1/materials/flares_custom/Sun_01.flare": {
+    "existing": "Assets/WeatherMaker/Prefab/Flares/WeatherMakerFlareSun.flare",
+    "identical": false,
+    "guid": "09ebe82dbd1113c3d000dc0b8d76c639"
+  },
+  "Assets/POLYBOX/Polyquest_Worlds_Full_Pack_Vol.1/materials/flares_custom/FlareSmall_01.flare": {
+    "existing": "Assets/WeatherMaker/Prefab/Flares/WeatherMakerFlareSmall.flare",
+    "identical": false,
+    "guid": "9bdb18c49d114cb4300035184241aa39"
+  }
+}

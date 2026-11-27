@@ -112,3 +112,8 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Licensed Polyquest source assets are restored from the owning Unity account.
+/Assets/POLYBOX/Polyquest_Worlds_Full_Pack_Vol.1/
+/Assets/POLYBOX/Polyquest_Worlds_Full_Pack_Vol.1.meta
+/Assets/POLYBOX.meta

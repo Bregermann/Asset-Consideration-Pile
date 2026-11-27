@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4132654970187836122
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 209372158262841754, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: c6aabc9c0504af54ca46fc5760991379, type: 2}
+    - target: {fileID: 3864756946566945278, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: cd21d8a13c1a6a048811ccdb1682f718, type: 2}
+    - target: {fileID: 6021723538923589785, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: 04d672d5ef5572347aaa658ee9502525, type: 2}
+    - target: {fileID: 6802284897298179083, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: cd21d8a13c1a6a048811ccdb1682f718, type: 2}
+    - target: {fileID: 8064996478930953703, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_Name
+      value: 01 Trailhead and Stepping Stones PSX
+      objectReference: {fileID: 0}
+    - target: {fileID: 8696959556081735508, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value:
+      objectReference: {fileID: 2100000, guid: 04d672d5ef5572347aaa658ee9502525, type: 2}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799527691851526710, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2dfd1c8a4537c2448bf288d6d882a493, type: 3}

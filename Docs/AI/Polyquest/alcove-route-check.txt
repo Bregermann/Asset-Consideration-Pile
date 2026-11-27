@@ -1,0 +1,4 @@
+0 landed=True (1.70, 0.08, 0.73)
+1 landed=True (4.47, 0.08, 1.11)
+2 landed=True (7.52, 0.43, 1.48)
+73 secretCollected=True
